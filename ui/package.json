@@ -41,6 +41,7 @@
     "react-dom": "^18",
     "react-use": "^17.5.0",
     "sonner": "^1.4.3",
+    "spectrum-ts": "^0.4.0",
     "stripe": "^14.20.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",

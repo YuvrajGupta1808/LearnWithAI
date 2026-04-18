@@ -6,6 +6,7 @@ import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Header } from "@/app/(main)/learn/header";
 
 import { CompleteButton } from "./complete-button";
+import { IMessageChatbot } from "./imessage-chatbot";
 
 type Props = {
   params: {
@@ -95,6 +96,7 @@ const LessonIdPage = async ({
             lessonId={lesson.id} 
             isCompleted={(lesson as any).completed}
           />
+          <IMessageChatbot />
         </div>
       </StickyWrapper>
     </div>
