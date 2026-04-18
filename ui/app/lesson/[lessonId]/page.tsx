@@ -4,8 +4,10 @@ import { getLesson, getUserProgress } from "@/db/queries";
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Header } from "@/app/(main)/learn/header";
+import { startPhotonIMessageBot } from "@/lib/photon-imessage-bot";
 
 import { CompleteButton } from "./complete-button";
+import { LessonChat } from "./lesson-chat";
 
 type Props = {
   params: {
@@ -30,6 +32,10 @@ const LessonIdPage = async ({
   if (!lesson || !userProgress) {
     redirect("/learn");
   }
+
+  startPhotonIMessageBot().catch((error) => {
+    console.error("Failed to start iMessage bot loop from lesson page:", error);
+  });
 
   return (
     <div className="flex w-full flex-col gap-8 p-3 pb-10 lg:flex-row lg:gap-[48px] lg:p-6">
@@ -95,6 +101,7 @@ const LessonIdPage = async ({
             lessonId={lesson.id} 
             isCompleted={(lesson as any).completed}
           />
+          <LessonChat lessonId={lesson.id} lessonTitle={lesson.title} />
         </div>
       </StickyWrapper>
     </div>

@@ -1,7 +1,12 @@
 import { authMiddleware } from "@clerk/nextjs";
  
 export default authMiddleware({
-  publicRoutes: ["/", "/api/webhooks/stripe"],
+  publicRoutes: [
+    "/",
+    "/api/webhooks/stripe",
+    "/api/imessage-bot/start",
+    "/api/photon-debug",
+  ],
 });
  
 export const config = {
