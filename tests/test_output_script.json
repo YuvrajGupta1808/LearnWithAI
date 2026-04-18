@@ -1,0 +1,41 @@
+[
+  {
+    "output": "output/final_video.mp4",
+    "total_scenes": 6,
+    "scene_duration": 5,
+    "ratio": "16:9",
+    "audio": true,
+    "scenes": [
+      {
+        "scene": 1,
+        "prompt": "Friendly smiling golden sun waves gently with wispy sunbeam arms, tiny glowing sparkles pop softly from its warm surface. Slow gentle zoom out. Deep cosy star-dotted black space. Soft diffused golden sun glow radiating outwards. Welcoming cheerful mood. Smooth animated children's book style. Sun surface ripples gently, sparkles drift slowly upwards away from the sun.",
+        "clip": "output/scene_01.mp4"
+      },
+      {
+        "scene": 2,
+        "prompt": "Camera pans smoothly left from the sun to reveal tiny grey Mercury zooming playfully along its orbit, leaving a faint glowing white trail. Medium tracking shot. Starry space with sun glowing warmly at the right edge. Warm side lighting catching Mercury's craters. Playful energetic mood. Consistent cartoon style. Mercury bounces lightly as it spins, fine space dust drifts nearby.",
+        "clip": "output/scene_02.mp4"
+      },
+      {
+        "scene": 3,
+        "prompt": "Camera continues panning left to soft pearlescent Venus, which winks slowly while pastel pink cloud puffs drift across its surface. Medium static shot. Calm starry background, sun glows faintly distant. Soft diffused sunlight filtering through Venus clouds. Wonder-filled gentle mood. Rounded illustration style. Venus spins slowly, tiny star sparkles drift past the frame.",
+        "clip": "output/scene_03.mp4"
+      },
+      {
+        "scene": 4,
+        "prompt": "Camera tracks further left to bright blue Earth, which spins gently while its tiny smiling moon loops smoothly around it. Slow soft push in shot. Deep indigo starry space. Warm sun light catching Earth's atmospheric glow. Warm comforting mood. Children's book animation style. Ocean surfaces glint softly, white clouds drift across landmasses.",
+        "clip": "output/scene_04.mp4"
+      },
+      {
+        "scene": 5,
+        "prompt": "Camera pans quickly left to giant grinning red Jupiter, its big swirly storm spot wiggles playfully while 4 tiny moons dance around it. Wide shot. Dark starry space. Warm golden side lighting from the distant sun. Exciting grand mood. Vibrant cartoon style. Jupiter's gas bands drift slowly, moons zip playfully along their orbits.",
+        "clip": "output/scene_05.mp4"
+      },
+      {
+        "scene": 6,
+        "prompt": "Camera pulls back fully to show all 8 smiling planets orbiting the happy sun in a neat line, a tiny cartoon rocket waves as it zooms across. Slow wide crane pullback. Full starry solar system field. Even warm golden sun glow lighting all planets. Joyful wonder-filled mood. Soft illustrated animation. All planets spin gently at their own pace, rocket leaves sparkling dust.",
+        "clip": "output/scene_06.mp4"
+      }
+    ]
+  }
+]
