@@ -1,0 +1,1092 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - navigation "Sitewide Navigation" [ref=e4]:
+      - generic [ref=e6]:
+        - link "Navigate to Home Page" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+        - generic [ref=e12]:
+          - generic "Catalog Menu" [ref=e13]:
+            - button "Catalog" [ref=e14] [cursor=pointer]:
+              - generic: Catalog
+              - img [ref=e15]
+          - generic "AI Upskilling Menu" [ref=e17]:
+            - button "AI Upskilling" [ref=e18] [cursor=pointer]:
+              - generic: AI Upskilling
+              - img [ref=e19]
+          - generic "Resources Menu" [ref=e21]:
+            - button "Resources" [ref=e22] [cursor=pointer]:
+              - generic: Resources
+              - img [ref=e23]
+          - generic "Pricing Menu" [ref=e25]:
+            - button "Pricing" [ref=e26] [cursor=pointer]:
+              - generic: Pricing
+              - img [ref=e27]
+          - link "For Business" [ref=e29] [cursor=pointer]:
+            - /url: /business
+          - link "For Universities" [ref=e30] [cursor=pointer]:
+            - /url: /universities
+        - generic [ref=e31]:
+          - button "Search" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+          - generic [ref=e35]:
+            - button "Select language" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - text: EN
+            - generic [ref=e39]:
+              - link "Log In" [ref=e40] [cursor=pointer]:
+                - /url: /users/sign_in?redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard
+                - generic [ref=e41]: Log in
+              - link "Get Started" [ref=e42] [cursor=pointer]:
+                - /url: /users/sign_up?redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard
+                - generic [ref=e43]: Get Started
+    - generic [ref=e44]:
+      - banner [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - link "Home" [ref=e50] [cursor=pointer]:
+                - /url: /
+              - img [ref=e51]
+              - link "R" [ref=e53] [cursor=pointer]:
+                - /url: /category/r
+            - generic [ref=e54]:
+              - paragraph [ref=e57]: Course
+              - heading "Building Dashboards with shinydashboard" [level=1] [ref=e58]
+              - generic [ref=e60]:
+                - generic [ref=e61]:
+                  - img [ref=e63]
+                  - generic [ref=e66]:
+                    - text: Basic
+                    - generic [ref=e67]: Skill Level
+                - separator [ref=e68]
+                - generic [ref=e69]:
+                  - generic [ref=e70]:
+                    - img [ref=e71]
+                    - text: 4.6+
+                  - separator [ref=e74]
+                  - link "71 reviews" [ref=e75] [cursor=pointer]:
+                    - /url: "#reviews"
+                    - generic [ref=e76]: 71 reviews
+                - separator [ref=e77]
+                - generic [ref=e78]: Updated 12/2024
+              - article [ref=e80]: Learn to create interactive dashboards with R using the powerful shinydashboard package. Create dynamic and engaging visualizations for your audience.
+            - generic [ref=e81]:
+              - link "Start Course for Free" [ref=e82] [cursor=pointer]:
+                - /url: /users/sign_up?redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                - generic [ref=e83]: Start Course for Free
+              - paragraph [ref=e84]:
+                - img [ref=e85]
+                - text: Included with
+                - link "Premium or Teams" [ref=e87] [cursor=pointer]:
+                  - /url: /pricing?tab=learn&period=yearly
+                  - generic [ref=e88]: Premium or Teams
+            - generic [ref=e89]:
+              - generic [ref=e91]: R
+              - generic [ref=e93]: Reporting
+              - generic [ref=e94]:
+                - img [ref=e95]
+                - generic [ref=e97]: 4 hr
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - generic [ref=e101]: 15 videos
+              - generic [ref=e102]:
+                - img [ref=e103]
+                - generic [ref=e105]: 51 Exercises
+              - generic [ref=e106]:
+                - img [ref=e107]
+                - generic [ref=e109]: 4,100 XP
+              - generic [ref=e110]:
+                - img [ref=e111]
+                - generic [ref=e113]: 3,964
+              - generic [ref=e114]:
+                - img [ref=e115]
+                - generic [ref=e117]: Statement of Accomplishment
+          - generic [ref=e119]:
+            - heading "Create Your Free Account" [level=2] [ref=e120]
+            - link "Continue with Google" [ref=e121] [cursor=pointer]:
+              - /url: /users/auth/openid_connect?kc_idp_hint=google&redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+              - generic:
+                - img [ref=e122]
+                - text: Continue with Google
+            - generic [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]: Show more options
+              - img [ref=e126]
+            - generic [ref=e128]:
+              - separator [ref=e129]
+              - paragraph [ref=e130]: or
+              - separator [ref=e131]
+            - button "Email" [ref=e132] [cursor=pointer]:
+              - generic:
+                - img [ref=e133]
+                - text: Email
+            - generic [ref=e136]:
+              - text: By continuing, you accept our
+              - link "Terms of Use" [ref=e137] [cursor=pointer]:
+                - /url: /terms-of-use
+              - text: ", our"
+              - link "Privacy Policy" [ref=e138] [cursor=pointer]:
+                - /url: /privacy-policy
+              - text: and that your data is stored in the USA.
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: Loved by learners at thousands of companies
+            - generic [ref=e143]:
+              - img [ref=e144]
+              - img [ref=e146]
+              - img [ref=e148]
+              - img [ref=e150]
+              - img [ref=e152]
+          - generic [ref=e154]:
+            - img "Group" [ref=e155]
+            - heading "Training 2 or more people?" [level=3] [ref=e157]
+            - link "Try DataCamp for Business" [ref=e158] [cursor=pointer]:
+              - /url: /business
+              - generic [ref=e159]: Try DataCamp for Business
+              - img [ref=e160]
+      - main [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e166]:
+              - heading "Course Description" [level=2] [ref=e167]
+              - generic [ref=e168]:
+                - article [ref=e169]:
+                  - text: Learn to create an interactive dashboard using the shinydashboard package in R. Whether you need to provide a client with information, create a data analysis report, or keep track of the performance of a personal project, shinydashboard can help you create something impactful. Learn the essentials of this powerful package today.
+                  - heading "Understand How to Use Dashboards" [level=2] [ref=e171]
+                  - text: While reports can provide you with a snapshot of a situation, a dashboard is not only dynamic, meaning that data can be updated in real time but also interactive. This makes for a more immersive experience for your audience.
+                  - heading "Learn To Use shinydashboard" [level=2] [ref=e172]
+                  - text: In this course, you will learn how to use shinydashboard in R to create a dynamic and interactive dashboard. You will cover the ins and outs of shinydashboard and learn about good UI/UX practices.
+                  - heading "Build an Interactive Dashboard" [level=2] [ref=e173]
+                  - text: You will first build a shinyApp and then graduate to building a shinydashboard. Then, you learn how to include interactive elements with hover-over effects.
+                  - text: Finally, you will explore how to tweak your design elements of a shinydashboard using CSS code and more. You will be given the opportunity to practice these concepts using various datasets in the context of four different scenarios.
+                  - text: Upon completing this course, you will be better equipped to create tailor-made dashboards for any purpose using shinydashboard.
+                - button "Read More" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175]: Read More
+                  - img [ref=e176]
+            - generic [ref=e179]:
+              - heading "Prerequisites" [level=3] [ref=e180]:
+                - generic [ref=e182]:
+                  - img [ref=e183]
+                  - generic [ref=e185]: Prerequisites
+              - generic [ref=e186]:
+                - link "Intermediate R |" [ref=e187] [cursor=pointer]:
+                  - /url: /courses/intermediate-r
+                  - generic [ref=e188]: Intermediate R
+                  - text: "|"
+                - link "Introduction to the Tidyverse" [ref=e189] [cursor=pointer]:
+                  - /url: /courses/introduction-to-the-tidyverse
+                  - generic [ref=e190]: Introduction to the Tidyverse
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e195]:
+                  - generic [ref=e197]: "1"
+                  - heading "ShinyApps" [level=3] [ref=e198]
+                - generic [ref=e201]:
+                  - generic [ref=e203]: Before you build a shinydashboard, you will first need to understand what a shinyApp is. In this chapter, you will learn what a shinyApp is, and learn what goes into a shinyApp. At the end of this chapter, you will be able to render your own shinyApp.
+                  - region:
+                    - list [ref=e204]:
+                      - link "Getting started with shiny apps 50 XP" [ref=e205] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=1
+                        - generic [ref=e206]:
+                          - img [ref=e210]
+                          - strong [ref=e213]: Getting started with shiny apps
+                        - strong [ref=e215]: 50 XP
+                      - link "Parts of a shinyApp 50 XP" [ref=e216] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=2
+                        - generic [ref=e217]:
+                          - img [ref=e221]
+                          - strong [ref=e224]: Parts of a shinyApp
+                        - strong [ref=e226]: 50 XP
+                      - link "An empty shinyApp 100 XP" [ref=e227] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=3
+                        - generic [ref=e228]:
+                          - img [ref=e232]
+                          - strong [ref=e235]: An empty shinyApp
+                        - strong [ref=e237]: 100 XP
+                      - link "Types of input 50 XP" [ref=e238] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=4
+                        - generic [ref=e239]:
+                          - img [ref=e243]
+                          - strong [ref=e246]: Types of input
+                        - strong [ref=e248]: 50 XP
+                      - link "Practicing sliderInput 100 XP" [ref=e249] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=5
+                        - generic [ref=e250]:
+                          - img [ref=e254]
+                          - strong [ref=e257]: Practicing sliderInput
+                        - strong [ref=e259]: 100 XP
+                      - link "Inserting multiple inputs 100 XP" [ref=e260] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=6
+                        - generic [ref=e261]:
+                          - img [ref=e265]
+                          - strong [ref=e268]: Inserting multiple inputs
+                        - strong [ref=e270]: 100 XP
+                      - link "checkboxInput and checkboxGroupInput 100 XP" [ref=e271] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=7
+                        - generic [ref=e272]:
+                          - img [ref=e276]
+                          - strong [ref=e279]: checkboxInput and checkboxGroupInput
+                        - strong [ref=e281]: 100 XP
+                      - link "Types of output 50 XP" [ref=e282] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=8
+                        - generic [ref=e283]:
+                          - img [ref=e287]
+                          - strong [ref=e290]: Types of output
+                        - strong [ref=e292]: 50 XP
+                      - link "textOutput with interactions 100 XP" [ref=e293] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=9
+                        - generic [ref=e294]:
+                          - img [ref=e298]
+                          - strong [ref=e301]: textOutput with interactions
+                        - strong [ref=e303]: 100 XP
+                      - link "Dropdown menus 100 XP" [ref=e304] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=10
+                        - generic [ref=e305]:
+                          - img [ref=e309]
+                          - strong [ref=e312]: Dropdown menus
+                        - strong [ref=e314]: 100 XP
+                      - link "Your first shinyApp 100 XP" [ref=e315] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/shinyapps?ex=11
+                        - generic [ref=e316]:
+                          - img [ref=e320]
+                          - strong [ref=e323]: Your first shinyApp
+                        - strong [ref=e325]: 100 XP
+                  - generic [ref=e326]:
+                    - button "View Details" [ref=e327] [cursor=pointer]:
+                      - strong [ref=e328]: View Details
+                      - img [ref=e329]
+                    - link "Start Chapter" [ref=e331] [cursor=pointer]:
+                      - /url: /users/sign_up?redirect=%2Fcourses%2Fshinyapps%2Fchapters%2F103727%2Fcontinue
+                      - generic [ref=e332]: Start Chapter
+              - generic [ref=e333]:
+                - generic [ref=e336]:
+                  - generic [ref=e338]: "2"
+                  - heading "Basics of a shinydashboard" [level=3] [ref=e339]
+                - generic [ref=e342]:
+                  - generic [ref=e344]: In the previous chapter, you learned about shiny apps. In this chapter, you will realize that a shinydashboard is really just another shiny app but with more tweakable features. The same outputs and inputs discussed in the previous chapter can be used in exactly the same manner here. You will then learn to carry out some simple wire-framing for a dashboard, during which you can decide where to position outputs and inputs in the dashboard.
+                  - region:
+                    - list [ref=e345]:
+                      - link "Components of a shinydashboard 50 XP" [ref=e346] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=1
+                        - generic [ref=e347]:
+                          - img [ref=e351]
+                          - strong [ref=e354]: Components of a shinydashboard
+                        - strong [ref=e356]: 50 XP
+                      - link "Components of a shinydashboard UI 50 XP" [ref=e357] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=2
+                        - generic [ref=e358]:
+                          - img [ref=e362]
+                          - strong [ref=e365]: Components of a shinydashboard UI
+                        - strong [ref=e367]: 50 XP
+                      - link "Your first (empty) dashboard 100 XP" [ref=e368] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=3
+                        - generic [ref=e369]:
+                          - img [ref=e373]
+                          - strong [ref=e376]: Your first (empty) dashboard
+                        - strong [ref=e378]: 100 XP
+                      - link "The header and sidebar 50 XP" [ref=e379] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=4
+                        - generic [ref=e380]:
+                          - img [ref=e384]
+                          - strong [ref=e387]: The header and sidebar
+                        - strong [ref=e389]: 50 XP
+                      - link "Header and sidebar functions 100 XP" [ref=e390] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=5
+                        - generic [ref=e391]:
+                          - img [ref=e395]
+                          - strong [ref=e398]: Header and sidebar functions
+                        - strong [ref=e400]: 100 XP
+                      - link "Setting a header 100 XP" [ref=e401] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=6
+                        - generic [ref=e402]:
+                          - img [ref=e406]
+                          - strong [ref=e409]: Setting a header
+                        - strong [ref=e411]: 100 XP
+                      - link "Setting a sidebar 100 XP" [ref=e412] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=7
+                        - generic [ref=e413]:
+                          - img [ref=e417]
+                          - strong [ref=e420]: Setting a sidebar
+                        - strong [ref=e422]: 100 XP
+                      - link "The body 50 XP" [ref=e423] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=8
+                        - generic [ref=e424]:
+                          - img [ref=e428]
+                          - strong [ref=e431]: The body
+                        - strong [ref=e433]: 50 XP
+                      - link "Wireframing with boxes 100 XP" [ref=e434] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=9
+                        - generic [ref=e435]:
+                          - img [ref=e439]
+                          - strong [ref=e442]: Wireframing with boxes
+                        - strong [ref=e444]: 100 XP
+                      - link "Wireframing 100 XP" [ref=e445] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=10
+                        - generic [ref=e446]:
+                          - img [ref=e450]
+                          - strong [ref=e453]: Wireframing
+                        - strong [ref=e455]: 100 XP
+                      - link "Your first shinydashboard 50 XP" [ref=e456] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=11
+                        - generic [ref=e457]:
+                          - img [ref=e461]
+                          - strong [ref=e464]: Your first shinydashboard
+                        - strong [ref=e466]: 50 XP
+                      - link "Helper functions 50 XP" [ref=e467] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=12
+                        - generic [ref=e468]:
+                          - img [ref=e472]
+                          - strong [ref=e475]: Helper functions
+                        - strong [ref=e477]: 50 XP
+                      - link "Header and side bar settings 100 XP" [ref=e478] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=13
+                        - generic [ref=e479]:
+                          - img [ref=e483]
+                          - strong [ref=e486]: Header and side bar settings
+                        - strong [ref=e488]: 100 XP
+                      - link "The body, and completing the UI 100 XP" [ref=e489] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=14
+                        - generic [ref=e490]:
+                          - img [ref=e494]
+                          - strong [ref=e497]: The body, and completing the UI
+                        - strong [ref=e499]: 100 XP
+                      - link "Building your first dashboard 100 XP" [ref=e500] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/basics-of-a-shinydashboard?ex=15
+                        - generic [ref=e501]:
+                          - img [ref=e505]
+                          - strong [ref=e508]: Building your first dashboard
+                        - strong [ref=e510]: 100 XP
+                  - generic [ref=e511]:
+                    - button "View Details" [ref=e512] [cursor=pointer]:
+                      - strong [ref=e513]: View Details
+                      - img [ref=e514]
+                    - link "Start Chapter" [ref=e516] [cursor=pointer]:
+                      - /url: /users/sign_up?redirect=%2Fcourses%2Fbasics-of-a-shinydashboard%2Fchapters%2F103728%2Fcontinue
+                      - generic [ref=e517]: Start Chapter
+              - generic [ref=e518]:
+                - generic [ref=e521]:
+                  - generic [ref=e523]: "3"
+                  - heading "Interactive plots and geospatial maps" [level=3] [ref=e524]
+                - generic [ref=e527]:
+                  - generic [ref=e529]: In this chapter, you will learn to further enhance your shinydashboard by inserting interactive elements. These will include graphs, geospatial maps, and tables that dashboard users can interact with in real-time.
+                  - region:
+                    - list [ref=e530]:
+                      - link "Interactive plots with plotly 50 XP" [ref=e531] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=1
+                        - generic [ref=e532]:
+                          - img [ref=e536]
+                          - strong [ref=e539]: Interactive plots with plotly
+                        - strong [ref=e541]: 50 XP
+                      - link "Creating your own plotly plots 100 XP" [ref=e542] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=2
+                        - generic [ref=e543]:
+                          - img [ref=e547]
+                          - strong [ref=e550]: Creating your own plotly plots
+                        - strong [ref=e552]: 100 XP
+                      - link "Understanding plotly limitations 100 XP" [ref=e553] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=3
+                        - generic [ref=e554]:
+                          - img [ref=e558]
+                          - strong [ref=e561]: Understanding plotly limitations
+                        - strong [ref=e563]: 100 XP
+                      - link "Geospatial maps with sf 50 XP" [ref=e564] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=4
+                        - generic [ref=e565]:
+                          - img [ref=e569]
+                          - strong [ref=e572]: Geospatial maps with sf
+                        - strong [ref=e574]: 50 XP
+                      - link "Types of sf objects 50 XP" [ref=e575] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=5
+                        - generic [ref=e576]:
+                          - img [ref=e580]
+                          - strong [ref=e583]: Types of sf objects
+                        - strong [ref=e585]: 50 XP
+                      - link "sf plots with plot() 100 XP" [ref=e586] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=6
+                        - generic [ref=e587]:
+                          - img [ref=e591]
+                          - strong [ref=e594]: sf plots with plot()
+                        - strong [ref=e596]: 100 XP
+                      - link "sf plots with ggplot 100 XP" [ref=e597] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=7
+                        - generic [ref=e598]:
+                          - img [ref=e602]
+                          - strong [ref=e605]: sf plots with ggplot
+                        - strong [ref=e607]: 100 XP
+                      - link "Geospatial maps with leaflet 50 XP" [ref=e608] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=8
+                        - generic [ref=e609]:
+                          - img [ref=e613]
+                          - strong [ref=e616]: Geospatial maps with leaflet
+                        - strong [ref=e618]: 50 XP
+                      - link "Layers of a leaflet map 100 XP" [ref=e619] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=9
+                        - generic [ref=e620]:
+                          - img [ref=e624]
+                          - strong [ref=e627]: Layers of a leaflet map
+                        - strong [ref=e629]: 100 XP
+                      - link "Creating your first leaflet map 100 XP" [ref=e630] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=10
+                        - generic [ref=e631]:
+                          - img [ref=e635]
+                          - strong [ref=e638]: Creating your first leaflet map
+                        - strong [ref=e640]: 100 XP
+                      - link "Interactive elements in a shinydashboard 50 XP" [ref=e641] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=11
+                        - generic [ref=e642]:
+                          - img [ref=e646]
+                          - strong [ref=e649]: Interactive elements in a shinydashboard
+                        - strong [ref=e651]: 50 XP
+                      - link "Creating some helper functions 100 XP" [ref=e652] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=12
+                        - generic [ref=e653]:
+                          - img [ref=e657]
+                          - strong [ref=e660]: Creating some helper functions
+                        - strong [ref=e662]: 100 XP
+                      - link "Your first shinydashboard with interactive elements 100 XP" [ref=e663] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/interactive-plots-and-geospatial-maps?ex=13
+                        - generic [ref=e664]:
+                          - img [ref=e668]
+                          - strong [ref=e671]: Your first shinydashboard with interactive elements
+                        - strong [ref=e673]: 100 XP
+                  - generic [ref=e674]:
+                    - button "View Details" [ref=e675] [cursor=pointer]:
+                      - strong [ref=e676]: View Details
+                      - img [ref=e677]
+                    - link "Start Chapter" [ref=e679] [cursor=pointer]:
+                      - /url: /users/sign_up?redirect=%2Fcourses%2Finteractive-plots-and-geospatial-maps%2Fchapters%2F103729%2Fcontinue
+                      - generic [ref=e680]: Start Chapter
+              - generic [ref=e681]:
+                - generic [ref=e684]:
+                  - generic [ref=e686]: "4"
+                  - heading "Adding design elements and improving UI/UX" [level=3] [ref=e687]
+                - generic [ref=e690]:
+                  - generic [ref=e692]: Now that you are familiar with shinydashboard, we can now add design elements. We will be able to change background colors, modify box dimensions and so on. We will also discuss some basic principles of good UI/UX. Finally, we will show how statuses and CSS formatting can be utilized.
+                  - region:
+                    - list [ref=e693]:
+                      - link "Good UI/UX practices 50 XP" [ref=e694] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=1
+                        - generic [ref=e695]:
+                          - img [ref=e699]
+                          - strong [ref=e702]: Good UI/UX practices
+                        - strong [ref=e704]: 50 XP
+                      - link "Understanding UI/UX principles 50 XP" [ref=e705] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=2
+                        - generic [ref=e706]:
+                          - img [ref=e710]
+                          - strong [ref=e713]: Understanding UI/UX principles
+                        - strong [ref=e715]: 50 XP
+                      - link "Wireframing with UI/UX principles 100 XP" [ref=e716] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=3
+                        - generic [ref=e717]:
+                          - img [ref=e721]
+                          - strong [ref=e724]: Wireframing with UI/UX principles
+                        - strong [ref=e726]: 100 XP
+                      - link "Statuses, colors and skins 50 XP" [ref=e727] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=4
+                        - generic [ref=e728]:
+                          - img [ref=e732]
+                          - strong [ref=e735]: Statuses, colors and skins
+                        - strong [ref=e737]: 50 XP
+                      - link "Setting statuses 100 XP" [ref=e738] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=5
+                        - generic [ref=e739]:
+                          - img [ref=e743]
+                          - strong [ref=e746]: Setting statuses
+                        - strong [ref=e748]: 100 XP
+                      - link "Setting colors 100 XP" [ref=e749] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=6
+                        - generic [ref=e750]:
+                          - img [ref=e754]
+                          - strong [ref=e757]: Setting colors
+                        - strong [ref=e759]: 100 XP
+                      - link "Changing shinydashboard skins 100 XP" [ref=e760] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=7
+                        - generic [ref=e761]:
+                          - img [ref=e765]
+                          - strong [ref=e768]: Changing shinydashboard skins
+                        - strong [ref=e770]: 100 XP
+                      - link "Customization with CSS formatting 50 XP" [ref=e771] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=8
+                        - generic [ref=e772]:
+                          - img [ref=e776]
+                          - strong [ref=e779]: Customization with CSS formatting
+                        - strong [ref=e781]: 50 XP
+                      - link "Good UI/UX practices and a warm-up 100 XP" [ref=e782] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=9
+                        - generic [ref=e783]:
+                          - img [ref=e787]
+                          - strong [ref=e790]: Good UI/UX practices and a warm-up
+                        - strong [ref=e792]: 100 XP
+                      - link "Statuses and completing the UI 100 XP" [ref=e793] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=10
+                        - generic [ref=e794]:
+                          - img [ref=e798]
+                          - strong [ref=e801]: Statuses and completing the UI
+                        - strong [ref=e803]: 100 XP
+                      - link "Customize your shinydashboard with CSS 100 XP" [ref=e804] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=11
+                        - generic [ref=e805]:
+                          - img [ref=e809]
+                          - strong [ref=e812]: Customize your shinydashboard with CSS
+                        - strong [ref=e814]: 100 XP
+                      - link "Wrap-up 50 XP" [ref=e815] [cursor=pointer]:
+                        - /url: https://campus.datacamp.com/courses/building-dashboards-with-shinydashboard/adding-design-elements-and-improving-uiux?ex=12
+                        - generic [ref=e816]:
+                          - img [ref=e820]
+                          - strong [ref=e823]: Wrap-up
+                        - strong [ref=e825]: 50 XP
+                  - generic [ref=e826]:
+                    - button "View Details" [ref=e827] [cursor=pointer]:
+                      - strong [ref=e828]: View Details
+                      - img [ref=e829]
+                    - link "Start Chapter" [ref=e831] [cursor=pointer]:
+                      - /url: /users/sign_up?redirect=%2Fcourses%2Fadding-design-elements-and-improving-uiux%2Fchapters%2F103730%2Fcontinue
+                      - generic [ref=e832]: Start Chapter
+            - article [ref=e833]:
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - img [ref=e842]
+                  - generic [ref=e845]: Building Dashboards with shinydashboard
+                  - generic [ref=e846]:
+                    - text: Course
+                    - text: Complete
+                  - img [ref=e847]
+                - generic [ref=e860]:
+                  - heading "Earn Statement of Accomplishment" [level=2] [ref=e861]
+                  - generic [ref=e862]:
+                    - text: Add this credential to your LinkedIn profile, resume, or CV
+                    - text: Share it on social media and in your performance review
+                  - paragraph [ref=e863]:
+                    - img [ref=e864]
+                    - text: Included with
+                    - link "Premium or Teams" [ref=e866] [cursor=pointer]:
+                      - /url: /pricing?tab=learn&period=yearly
+                      - generic [ref=e867]: Premium or Teams
+                  - link "Enroll Now" [ref=e868] [cursor=pointer]:
+                    - /url: /users/sign_up?redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                    - generic [ref=e869]: Enroll Now
+          - complementary [ref=e870]:
+            - generic [ref=e871]:
+              - generic [ref=e872]:
+                - generic [ref=e873]:
+                  - generic [ref=e875]: For Business
+                  - img [ref=e876]
+                - heading "Training 2 or more people?" [level=3] [ref=e878]:
+                  - img [ref=e879]
+                  - text: Training 2 or more people?
+                - generic [ref=e881]: Get your team access to the full DataCamp platform, including all the features.
+                - generic [ref=e882]:
+                  - link "DataCamp for Business" [ref=e883] [cursor=pointer]:
+                    - /url: /business
+                    - generic [ref=e884]: DataCamp for Business
+                  - generic [ref=e885]:
+                    - text: For a bespoke solution
+                    - link "book a demo" [ref=e886] [cursor=pointer]:
+                      - /url: /business/demo
+                      - generic [ref=e887]: book a demo
+                    - text: .
+              - generic [ref=e888]:
+                - generic [ref=e889]:
+                  - img [ref=e890]
+                  - heading "In the following Tracks" [level=3] [ref=e892]
+                - link "Shiny Fundamentals in R" [ref=e895] [cursor=pointer]:
+                  - /url: /tracks/shiny-fundamentals-with-r
+                  - generic [ref=e896]: Shiny Fundamentals in R
+              - generic [ref=e897]:
+                - generic [ref=e898]:
+                  - img [ref=e899]
+                  - heading "instructor" [level=3] [ref=e901]
+                - generic [ref=e902]:
+                  - img "Kee Seng Png" [ref=e905]
+                  - generic [ref=e906]:
+                    - strong [ref=e907]: Kee Seng Png
+                    - paragraph [ref=e908]: Researcher
+                - generic [ref=e909]:
+                  - img [ref=e910]
+                  - heading "collaborators" [level=3] [ref=e912]
+                - generic [ref=e913]:
+                  - img "Izzy Weber" [ref=e916]
+                  - generic [ref=e917]:
+                    - strong [ref=e918]: Izzy Weber
+                    - paragraph
+                - generic [ref=e919]:
+                  - img "Maarten Van den Broeck" [ref=e922]
+                  - generic [ref=e923]:
+                    - strong [ref=e924]: Maarten Van den Broeck
+                    - paragraph
+                - generic [ref=e925]:
+                  - img "Jasmin Ludolf" [ref=e928]
+                  - generic [ref=e929]:
+                    - strong [ref=e930]: Jasmin Ludolf
+                    - paragraph
+        - generic [ref=e932]:
+          - heading "Don’t just take our word for it" [level=2] [ref=e933]
+          - generic [ref=e934]:
+            - generic [ref=e935]:
+              - generic [ref=e936]:
+                - generic [ref=e937]:
+                  - generic [ref=e938]:
+                    - generic [ref=e939]: "*"
+                    - text: "4.6"
+                  - generic [ref=e940]:
+                    - img [ref=e941]
+                    - img [ref=e944]
+                    - img [ref=e947]
+                    - img [ref=e950]
+                    - img [ref=e953]
+                  - generic [ref=e956]: from 71 reviews
+                - generic [ref=e957]:
+                  - generic [ref=e961]:
+                    - generic [ref=e962]:
+                      - img [ref=e963]
+                      - img [ref=e966]
+                      - img [ref=e969]
+                      - img [ref=e972]
+                      - img [ref=e975]
+                    - generic [ref=e978]: 73%
+                  - generic [ref=e982]:
+                    - generic [ref=e983]:
+                      - img [ref=e984]
+                      - img [ref=e987]
+                      - img [ref=e990]
+                      - img [ref=e993]
+                      - img [ref=e996]
+                    - generic [ref=e999]: 24%
+                  - generic [ref=e1003]:
+                    - generic [ref=e1004]:
+                      - img [ref=e1005]
+                      - img [ref=e1008]
+                      - img [ref=e1011]
+                      - img [ref=e1014]
+                      - img [ref=e1017]
+                    - generic [ref=e1020]: 1%
+                  - generic [ref=e1024]:
+                    - generic [ref=e1025]:
+                      - img [ref=e1026]
+                      - img [ref=e1029]
+                      - img [ref=e1032]
+                      - img [ref=e1035]
+                      - img [ref=e1038]
+                    - generic [ref=e1041]: 1%
+                  - generic [ref=e1044]:
+                    - generic [ref=e1045]:
+                      - img [ref=e1046]
+                      - img [ref=e1049]
+                      - img [ref=e1052]
+                      - img [ref=e1055]
+                      - img [ref=e1058]
+                    - generic [ref=e1061]: 0%
+              - generic [ref=e1063]:
+                - generic [ref=e1066] [cursor=pointer]:
+                  - text: See all reviews
+                  - img [ref=e1067]
+                - list:
+                  - generic [ref=e1069]:
+                    - listitem [ref=e1070]:
+                      - generic [ref=e1071]:
+                        - generic [ref=e1073]:
+                          - generic [ref=e1074]: Michael
+                          - generic [ref=e1075]:
+                            - img [ref=e1076]
+                            - img [ref=e1079]
+                            - img [ref=e1082]
+                            - img [ref=e1085]
+                            - img [ref=e1088]
+                          - generic [ref=e1091]: 2 weeks ago
+                        - paragraph [ref=e1092]: Guidance is OK in videos, not so much in the tasks
+                    - listitem [ref=e1093]:
+                      - generic [ref=e1094]:
+                        - generic [ref=e1096]:
+                          - generic [ref=e1097]: Brundaban
+                          - generic [ref=e1098]:
+                            - img [ref=e1099]
+                            - img [ref=e1102]
+                            - img [ref=e1105]
+                            - img [ref=e1108]
+                            - img [ref=e1111]
+                          - generic [ref=e1114]: 3 weeks ago
+                        - paragraph
+                    - listitem [ref=e1115]:
+                      - generic [ref=e1116]:
+                        - generic [ref=e1118]:
+                          - generic [ref=e1119]: Pragyan
+                          - generic [ref=e1120]:
+                            - img [ref=e1121]
+                            - img [ref=e1124]
+                            - img [ref=e1127]
+                            - img [ref=e1130]
+                            - img [ref=e1133]
+                          - generic [ref=e1136]: 3 weeks ago
+                        - paragraph
+                    - listitem [ref=e1137]:
+                      - generic [ref=e1138]:
+                        - generic [ref=e1140]:
+                          - generic [ref=e1141]: Shravan
+                          - generic [ref=e1142]:
+                            - img [ref=e1143]
+                            - img [ref=e1146]
+                            - img [ref=e1149]
+                            - img [ref=e1152]
+                            - img [ref=e1155]
+                          - generic [ref=e1158]: 4 weeks ago
+                        - paragraph
+                    - listitem [ref=e1159]:
+                      - generic [ref=e1160]:
+                        - generic [ref=e1162]:
+                          - generic [ref=e1163]: Damir
+                          - generic [ref=e1164]:
+                            - img [ref=e1165]
+                            - img [ref=e1168]
+                            - img [ref=e1171]
+                            - img [ref=e1174]
+                            - img [ref=e1177]
+                          - generic [ref=e1180]: 5 weeks ago
+                        - paragraph
+                    - listitem [ref=e1181]:
+                      - generic [ref=e1182]:
+                        - generic [ref=e1184]:
+                          - generic [ref=e1185]: Mohammed
+                          - generic [ref=e1186]:
+                            - img [ref=e1187]
+                            - img [ref=e1190]
+                            - img [ref=e1193]
+                            - img [ref=e1196]
+                            - img [ref=e1199]
+                          - generic [ref=e1202]: 5 weeks ago
+                        - paragraph
+                    - alert "Loading..." [ref=e1203]:
+                      - img [ref=e1206]
+            - generic [ref=e1208]:
+              - generic [ref=e1209]:
+                - paragraph
+                - generic [ref=e1210]:
+                  - text: Shravan
+                  - generic [ref=e1211]:
+                    - img [ref=e1212]
+                    - img [ref=e1215]
+                    - img [ref=e1218]
+                    - img [ref=e1221]
+                    - img [ref=e1224]
+              - generic [ref=e1227]:
+                - paragraph
+                - generic [ref=e1228]:
+                  - text: Damir
+                  - generic [ref=e1229]:
+                    - img [ref=e1230]
+                    - img [ref=e1233]
+                    - img [ref=e1236]
+                    - img [ref=e1239]
+                    - img [ref=e1242]
+              - generic [ref=e1245]:
+                - paragraph
+                - generic [ref=e1246]:
+                  - text: Mohammed
+                  - generic [ref=e1247]:
+                    - img [ref=e1248]
+                    - img [ref=e1251]
+                    - img [ref=e1254]
+                    - img [ref=e1257]
+                    - img [ref=e1260]
+        - list [ref=e1267]:
+          - listitem [ref=e1268]:
+            - article [ref=e1270]:
+              - generic [ref=e1271]:
+                - img "Shoebur Rahman" [ref=e1275]
+                - blockquote [ref=e1276]: After doing these courses, I feel confident creating professional visualizations and dashboards
+                - generic [ref=e1277]:
+                  - generic [ref=e1278]: Shoebur Rahman
+                  - generic [ref=e1279]: Procurement Specialist, Giz Bangladesh
+          - listitem [ref=e1280]:
+            - article [ref=e1282]:
+              - generic [ref=e1283]:
+                - img "Ebuka Nwafornso" [ref=e1287]
+                - blockquote [ref=e1288]: For someone without a strong programming background, DataCamp was really beginner-friendly. You watch some videos and then practice immediately - I was able to learn fast
+                - generic [ref=e1289]:
+                  - generic [ref=e1290]: Ebuka Nwafornso
+                  - generic [ref=e1291]: Graduate Student, University College Dubllin
+          - listitem [ref=e1292]:
+            - article [ref=e1294]:
+              - generic [ref=e1295]:
+                - img "Raul Romero" [ref=e1299]
+                - blockquote [ref=e1300]: DataCamp is a cost-effective way to upskill and stay relevant with data and AI. It’s structured, practical, and lets you apply what you learn immediately
+                - generic [ref=e1301]:
+                  - generic [ref=e1302]: Raul Romero
+                  - generic [ref=e1303]: Product Manager III, Ebay
+        - generic [ref=e1304]:
+          - generic [ref=e1305]:
+            - heading "Join over 19 million learners and start Building Dashboards with shinydashboard today!" [level=2] [ref=e1306]
+            - generic [ref=e1307]:
+              - heading "Create Your Free Account" [level=2] [ref=e1308]
+              - generic [ref=e1309]:
+                - link "Sign up with Google" [ref=e1310] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=google&redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                  - img [ref=e1312]
+                - link "Sign up with LinkedIn" [ref=e1317] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=linkedin-openid-connect&redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                  - img [ref=e1319]
+                - link "Sign up with Facebook" [ref=e1321] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=facebook&redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                  - img [ref=e1323]
+                - link "Sign up with Apple" [ref=e1326] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=apple&redirect=%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%2Fcontinue%3Fvariant%3Dtraditional
+                  - img [ref=e1328]
+              - paragraph [ref=e1330]:
+                - generic [ref=e1331]: or
+              - generic [ref=e1332]:
+                - group [ref=e1333]:
+                  - generic [ref=e1334]:
+                    - generic [ref=e1337]: Email Address
+                    - textbox "Email Address" [ref=e1339]
+                - group [ref=e1340]:
+                  - generic [ref=e1341]:
+                    - generic [ref=e1344]: Password
+                    - generic [ref=e1345]:
+                      - textbox "Password Show Password" [ref=e1346]:
+                        - /placeholder: Password
+                      - button "Show Password" [ref=e1347]:
+                        - img [ref=e1349]
+                - button "Start Learning for Free" [ref=e1351] [cursor=pointer]:
+                  - generic [ref=e1352]: Start Learning for Free
+              - generic [ref=e1353]:
+                - text: By continuing, you accept our
+                - link "Terms of Use" [ref=e1354] [cursor=pointer]:
+                  - /url: /terms-of-use
+                - text: ", our"
+                - link "Privacy Policy" [ref=e1355] [cursor=pointer]:
+                  - /url: /privacy-policy
+                - text: and that your data is stored in the USA.
+          - img [ref=e1357]
+      - contentinfo [ref=e1366]:
+        - generic [ref=e1367]:
+          - heading "Grow your data skills with DataCamp for Mobile" [level=2] [ref=e1368]
+          - paragraph [ref=e1369]: Make progress on the go with our mobile courses and daily 5-minute coding challenges.
+          - generic [ref=e1370]:
+            - link "Download on the App Store" [ref=e1371] [cursor=pointer]:
+              - /url: https://datacamp.onelink.me/xztQ/45dozwue?deep_link_sub1=%7B%22src_url%22%3A%22https%3A%2F%2Fwww.datacamp.com%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%22%7D
+              - img [ref=e1373]
+              - generic [ref=e1377]: Download on the App Store
+            - link "Get it on Google Play" [ref=e1378] [cursor=pointer]:
+              - /url: https://datacamp.onelink.me/xztQ/go2f19ij?deep_link_sub1=%7B%22src_url%22%3A%22https%3A%2F%2Fwww.datacamp.com%2Fcourses%2Fbuilding-dashboards-with-shinydashboard%22%7D
+              - img [ref=e1380]
+              - generic [ref=e1393]: Get it on Google Play
+        - generic [ref=e1394]:
+          - generic [ref=e1396]:
+            - generic [ref=e1398]:
+              - strong [ref=e1399]: Learn
+              - generic [ref=e1400]:
+                - link "Learn Python" [ref=e1401] [cursor=pointer]:
+                  - /url: /blog/how-to-learn-python-expert-guide
+                - link "Learn AI" [ref=e1402] [cursor=pointer]:
+                  - /url: /blog/how-to-learn-ai
+                - link "Learn Power BI" [ref=e1403] [cursor=pointer]:
+                  - /url: /learn/power-bi
+                - link "Learn Data Engineering" [ref=e1404] [cursor=pointer]:
+                  - /url: /category/data-engineering
+                - link "Assessments" [ref=e1405] [cursor=pointer]:
+                  - /url: /signal
+                - link "Career Tracks" [ref=e1406] [cursor=pointer]:
+                  - /url: /tracks/career
+                - link "Skill Tracks" [ref=e1407] [cursor=pointer]:
+                  - /url: /tracks/skill
+                - link "Courses" [ref=e1408] [cursor=pointer]:
+                  - /url: /courses-all
+                - link "Data Science Roadmap" [ref=e1409] [cursor=pointer]:
+                  - /url: /blog/data-science-roadmap
+            - generic [ref=e1411]:
+              - strong [ref=e1412]: Data Courses
+              - generic [ref=e1413]:
+                - link "Python Courses" [ref=e1414] [cursor=pointer]:
+                  - /url: /category/python
+                - link "R Courses" [ref=e1415] [cursor=pointer]:
+                  - /url: /category/r
+                - link "SQL Courses" [ref=e1416] [cursor=pointer]:
+                  - /url: /category/sql
+                - link "Power BI Courses" [ref=e1417] [cursor=pointer]:
+                  - /url: /category/power-bi
+                - link "Tableau Courses" [ref=e1418] [cursor=pointer]:
+                  - /url: /category/tableau
+                - link "Alteryx Courses" [ref=e1419] [cursor=pointer]:
+                  - /url: /category/alteryx
+                - link "Azure Courses" [ref=e1420] [cursor=pointer]:
+                  - /url: /category/azure
+                - link "AWS Courses" [ref=e1421] [cursor=pointer]:
+                  - /url: /category/aws
+                - link "Google Cloud Courses" [ref=e1422] [cursor=pointer]:
+                  - /url: /category/google-cloud
+                - link "Google Sheets Courses" [ref=e1423] [cursor=pointer]:
+                  - /url: /category/google-sheets
+                - link "Excel Courses" [ref=e1424] [cursor=pointer]:
+                  - /url: /category/excel
+                - link "AI Courses" [ref=e1425] [cursor=pointer]:
+                  - /url: /category/artificial-intelligence
+                - link "Data Analysis Courses" [ref=e1426] [cursor=pointer]:
+                  - /url: /category/data-analysis
+                - link "Data Visualization Courses" [ref=e1427] [cursor=pointer]:
+                  - /url: /category/data-visualization
+                - link "Machine Learning Courses" [ref=e1428] [cursor=pointer]:
+                  - /url: /category/machine-learning
+                - link "Data Engineering Courses" [ref=e1429] [cursor=pointer]:
+                  - /url: /category/data-engineering
+                - link "Probability & Statistics Courses" [ref=e1430] [cursor=pointer]:
+                  - /url: /category/probability-and-statistics
+            - generic [ref=e1431]:
+              - generic [ref=e1432]:
+                - strong [ref=e1433]: DataLab
+                - generic [ref=e1434]:
+                  - link "Get Started" [ref=e1435] [cursor=pointer]:
+                    - /url: /datalab
+                  - link "Pricing" [ref=e1436] [cursor=pointer]:
+                    - /url: /datalab/pricing
+                  - link "Security" [ref=e1437] [cursor=pointer]:
+                    - /url: /datalab/security
+                  - link "Documentation" [ref=e1438] [cursor=pointer]:
+                    - /url: https://datalab-docs.datacamp.com
+              - generic [ref=e1439]:
+                - strong [ref=e1440]: Certification
+                - generic [ref=e1441]:
+                  - link "Certifications" [ref=e1442] [cursor=pointer]:
+                    - /url: /certification
+                  - link "Data Scientist" [ref=e1443] [cursor=pointer]:
+                    - /url: /certification/data-scientist
+                  - link "Data Analyst" [ref=e1444] [cursor=pointer]:
+                    - /url: /certification/data-analyst
+                  - link "Data Engineer" [ref=e1445] [cursor=pointer]:
+                    - /url: /certification/data-engineer
+                  - link "SQL Associate" [ref=e1446] [cursor=pointer]:
+                    - /url: /certification/sql-associate
+                  - link "Power BI Data Analyst" [ref=e1447] [cursor=pointer]:
+                    - /url: /certification/data-analyst-in-power-bi
+                  - link "Tableau Certified Data Analyst" [ref=e1448] [cursor=pointer]:
+                    - /url: /certification/data-analyst-in-tableau
+                  - link "Azure Fundamentals" [ref=e1449] [cursor=pointer]:
+                    - /url: /certification/azure-fundamentals
+                  - link "AI Fundamentals" [ref=e1450] [cursor=pointer]:
+                    - /url: /certification/ai-fundamentals
+            - generic [ref=e1452]:
+              - strong [ref=e1453]: Resources
+              - generic [ref=e1454]:
+                - link "Resource Center" [ref=e1455] [cursor=pointer]:
+                  - /url: /resources
+                - link "Upcoming Events" [ref=e1456] [cursor=pointer]:
+                  - /url: /webinars
+                - link "Blog" [ref=e1457] [cursor=pointer]:
+                  - /url: /blog
+                - link "Code-Alongs" [ref=e1458] [cursor=pointer]:
+                  - /url: /code-along
+                - link "Tutorials" [ref=e1459] [cursor=pointer]:
+                  - /url: /tutorial
+                - link "Docs" [ref=e1460] [cursor=pointer]:
+                  - /url: /doc
+                - link "Open Source" [ref=e1461] [cursor=pointer]:
+                  - /url: /open-source
+                - link "RDocumentation" [ref=e1462] [cursor=pointer]:
+                  - /url: https://www.rdocumentation.org
+                - link "Book a Demo with DataCamp for Business" [ref=e1463] [cursor=pointer]:
+                  - /url: /business/demo
+                - link "Data Portfolio" [ref=e1464] [cursor=pointer]:
+                  - /url: /data-portfolio
+            - generic [ref=e1465]:
+              - generic [ref=e1466]:
+                - strong [ref=e1467]: Plans
+                - generic [ref=e1468]:
+                  - link "Pricing" [ref=e1469] [cursor=pointer]:
+                    - /url: /pricing
+                  - link "For Students" [ref=e1470] [cursor=pointer]:
+                    - /url: /pricing/student
+                  - link "For Business" [ref=e1471] [cursor=pointer]:
+                    - /url: /business
+                  - link "For Universities" [ref=e1472] [cursor=pointer]:
+                    - /url: /universities
+                  - link "Discounts, Promos & Sales" [ref=e1473] [cursor=pointer]:
+                    - /url: /promo
+                  - link "Expense DataCamp" [ref=e1474] [cursor=pointer]:
+                    - /url: /expense
+                  - link "DataCamp Donates" [ref=e1475] [cursor=pointer]:
+                    - /url: /donates
+              - generic [ref=e1476]:
+                - strong [ref=e1477]: For Business
+                - generic [ref=e1478]:
+                  - link "Business Pricing" [ref=e1479] [cursor=pointer]:
+                    - /url: /business/compare-plans
+                  - link "Teams Plan" [ref=e1480] [cursor=pointer]:
+                    - /url: /business/learn-teams
+                  - link "Data & AI Unlimited Plan" [ref=e1481] [cursor=pointer]:
+                    - /url: /business/data-unlimited
+                  - link "Customer Stories" [ref=e1482] [cursor=pointer]:
+                    - /url: /business/customer-stories
+                  - link "Partner Program" [ref=e1483] [cursor=pointer]:
+                    - /url: /business/partner-program
+            - generic [ref=e1484]:
+              - generic [ref=e1485]:
+                - strong [ref=e1486]: About
+                - generic [ref=e1487]:
+                  - link "About Us" [ref=e1488] [cursor=pointer]:
+                    - /url: /about
+                  - link "Learner Stories" [ref=e1489] [cursor=pointer]:
+                    - /url: /stories
+                  - link "Careers" [ref=e1490] [cursor=pointer]:
+                    - /url: /careers
+                  - link "Become an Instructor" [ref=e1491] [cursor=pointer]:
+                    - /url: /learn/create
+                  - link "Press" [ref=e1492] [cursor=pointer]:
+                    - /url: /press
+                  - link "Leadership" [ref=e1493] [cursor=pointer]:
+                    - /url: /about/leadership
+                  - link "Contact Us" [ref=e1494] [cursor=pointer]:
+                    - /url: https://support.datacamp.com/hc/en-us/articles/360021185634
+                  - link "DataCamp Español" [ref=e1495] [cursor=pointer]:
+                    - /url: /es
+                  - link "DataCamp Português" [ref=e1496] [cursor=pointer]:
+                    - /url: /pt
+                  - link "DataCamp Deutsch" [ref=e1497] [cursor=pointer]:
+                    - /url: /de
+                  - link "DataCamp Français" [ref=e1498] [cursor=pointer]:
+                    - /url: /fr
+              - generic [ref=e1499]:
+                - strong [ref=e1500]: Support
+                - generic [ref=e1501]:
+                  - link "Help Center" [ref=e1502] [cursor=pointer]:
+                    - /url: https://support.datacamp.com/hc/en-us
+                  - link "Become an Affiliate" [ref=e1503] [cursor=pointer]:
+                    - /url: /affiliates
+          - img [ref=e1504]
+          - generic [ref=e1508]:
+            - generic [ref=e1509]:
+              - link "Facebook" [ref=e1510] [cursor=pointer]:
+                - /url: https://www.facebook.com/datacampinc/
+                - img [ref=e1511]
+                - generic [ref=e1513]: Facebook
+              - link "Twitter" [ref=e1514] [cursor=pointer]:
+                - /url: https://twitter.com/datacamp
+                - img [ref=e1515]
+                - generic [ref=e1517]: Twitter
+              - link "LinkedIn" [ref=e1518] [cursor=pointer]:
+                - /url: https://www.linkedin.com/school/datacampinc/
+                - img [ref=e1519]
+                - generic [ref=e1521]: LinkedIn
+              - link "YouTube" [ref=e1522] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC79Gv3mYp6zKiSwYemEik9A
+                - img [ref=e1523]
+                - generic [ref=e1525]: YouTube
+              - link "Instagram" [ref=e1526] [cursor=pointer]:
+                - /url: https://www.instagram.com/datacamp/
+                - img [ref=e1527]
+                - generic [ref=e1529]: Instagram
+            - generic [ref=e1530]:
+              - link "Privacy Policy" [ref=e1531] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Cookie Notice" [ref=e1532] [cursor=pointer]:
+                - /url: /cookie-notice
+              - link "Do Not Sell My Personal Information" [ref=e1533] [cursor=pointer]:
+                - /url: /do-not-sell-my-personal-information
+              - link "Accessibility" [ref=e1534] [cursor=pointer]:
+                - /url: /accessibility
+              - link "Security" [ref=e1535] [cursor=pointer]:
+                - /url: /security
+              - link "Terms of Use" [ref=e1536] [cursor=pointer]:
+                - /url: /terms-of-use
+            - paragraph [ref=e1537]: © 2026 DataCamp, Inc. All Rights Reserved.
+  - alert [ref=e1538]

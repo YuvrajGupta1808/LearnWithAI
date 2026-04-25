@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img "LearnWithAI logo" [ref=e6]
+        - generic [ref=e7]: LearnWithAI
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /dashboard
+            - listitem [ref=e11]:
+              - img [ref=e13]
+              - generic [ref=e15]: Home
+          - link "Explore" [ref=e16] [cursor=pointer]:
+            - /url: /dashboard/explore
+            - listitem [ref=e17]:
+              - img [ref=e19]
+              - generic [ref=e21]: Explore
+          - link "Upgrade" [ref=e22] [cursor=pointer]:
+            - /url: /dashboard/upgrade
+            - listitem [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Upgrade
+          - link "Logout" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard/logout
+            - listitem [ref=e29]:
+              - img [ref=e31]
+              - generic [ref=e33]: Logout
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: Course Credits
+          - generic [ref=e38]: 0/5
+        - progressbar [ref=e39]
+        - paragraph [ref=e41]: Upgrade your plan for unlimited AI course generation.
+        - link "Upgrade Now" [ref=e42] [cursor=pointer]:
+          - /url: /dashboard/upgrade
+          - button "Upgrade Now" [ref=e43]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - generic [ref=e49]: Search courses, topics, or chapters
+        - generic [ref=e50]:
+          - button "Notifications" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - generic [ref=e54]:
+            - generic [ref=e55]: Guest User
+            - generic [ref=e56]: Free Plan
+          - generic [ref=e58]: G
+      - generic [ref=e60]:
+        - heading "Explore More Projects" [level=2] [ref=e61]
+        - paragraph [ref=e62]: Explore more project build with AI by other users
+        - button "Next Page" [ref=e70] [cursor=pointer]
+  - alert [ref=e71]

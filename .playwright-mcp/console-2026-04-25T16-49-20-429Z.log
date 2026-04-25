@@ -1,0 +1,61 @@
+[    1216ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[    2952ms] [LOG] [Fast Refresh] done in 1736ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[    3673ms] [ERROR] Failed to fetch RSC payload for http://localhost:3001/create-course. Falling back to browser navigation. TypeError: Failed to fetch
+    at fetchServerResponse (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js:57:27)
+    at fastRefreshReducerImpl (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js:33:67)
+    at clientReducer (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js:41:67)
+    at Object.action (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:150:55)
+    at runAction (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:56:38)
+    at dispatchAction (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:113:9)
+    at Object.dispatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:145:40)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js:130:21)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:304:25)
+    at startTransition (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react/cjs/react.development.js:2597:25)
+    at Object.fastRefresh (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:303:48)
+    at processMessage (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:297:31)
+    at WebSocket.handler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:395:17) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[    3676ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
+[    4159ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[    4205ms] TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:33:43)
+    at require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:19729)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:108279)
+    at eo (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:108464)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:110693)
+    at Object._fromJSON (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:111249)
+    at JSON.parse (<anonymous>)
+    at eu (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:108958)
+    at en (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:108026)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:115168)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:115185)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:115218)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:115235)
+    at t (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:115458)
+[    4204ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:45
+[   14520ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   15523ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   16525ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   17526ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   18528ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   23531ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   28534ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[   33539ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:45
+[   33558ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[   35857ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[   39608ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[   39689ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/_next/static/webpack/c85d021a32a53203.webpack.hot-update.json:0
+[   39689ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[   39831ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[   40455ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/_next/static/webpack/c85d021a32a53203.webpack.hot-update.json:0
+[   40455ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[   41028ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[   41713ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[   42316ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[   42395ms] [WARNING] Image with src "http://localhost:3001/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15

@@ -1,0 +1,36 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Logo LearnWithAI" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e5]
+        - generic [ref=e6]: LearnWithAI
+      - link "Get Started" [ref=e7] [cursor=pointer]:
+        - /url: /dashboard
+        - button "Get Started" [ref=e8]
+    - generic [ref=e13]:
+      - generic [ref=e17]: "New: GPT-4o Powered Generation"
+      - generic [ref=e18]:
+        - heading "Build Your Knowledge With AI Precision" [level=1] [ref=e19]:
+          - text: Build Your Knowledge
+          - text: With AI Precision
+        - paragraph [ref=e20]: Generate professional, engaging, and comprehensive courses in seconds. Empower your learning journey with the world's most advanced AI tutor.
+      - generic [ref=e21]:
+        - link "Start Building For Free" [ref=e22] [cursor=pointer]:
+          - /url: /dashboard
+          - button "Start Building For Free" [ref=e23]
+        - button "Explore Tutorials" [ref=e24] [cursor=pointer]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - img [ref=e28]
+          - heading "Smart Syllabi" [level=3] [ref=e30]
+          - paragraph [ref=e31]: Our AI analyzes your topic to create a perfectly structured curriculum in seconds.
+        - generic [ref=e32]:
+          - img [ref=e34]
+          - heading "Rich Media" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Chapters are automatically paired with relevant YouTube tutorials and code snippets.
+        - generic [ref=e38]:
+          - img [ref=e40]
+          - heading "Adaptive Levels" [level=3] [ref=e42]
+          - paragraph [ref=e43]: From Beginner to Expert, the AI tailors the complexity of the content to your needs.
+  - alert [ref=e44]

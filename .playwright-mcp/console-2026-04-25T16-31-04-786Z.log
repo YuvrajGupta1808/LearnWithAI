@@ -1,0 +1,145 @@
+[     270ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[    1828ms] [LOG] [Fast Refresh] done in 1558ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[    2755ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[    2935ms] [LOG] [] @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:94
+[    2941ms] [LOG] [] @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:94
+[   51445ms] [LOG] {category: Programming} @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:94
+[  298084ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  300589ms] [LOG] [Fast Refresh] done in 2506ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  301616ms] [ERROR] Failed to fetch RSC payload for http://localhost:3002/create-course. Falling back to browser navigation. TypeError: Failed to fetch
+    at fetchServerResponse (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js:57:27)
+    at fastRefreshReducerImpl (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/reducers/fast-refresh-reducer.js:33:67)
+    at clientReducer (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/router-reducer/router-reducer.js:41:67)
+    at Object.action (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:150:55)
+    at runAction (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:56:38)
+    at dispatchAction (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:113:9)
+    at Object.dispatch (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/router/action-queue.js:145:40)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/use-reducer-with-devtools.js:130:21)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:304:25)
+    at startTransition (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react/cjs/react.development.js:2597:25)
+    at Object.fastRefresh (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js:303:48)
+    at processMessage (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:297:31)
+    at WebSocket.handler (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:395:17) @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  301621ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/dashboard:0
+[  301808ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/:0
+[  302252ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  302305ms] Error: Cannot find module './948.js'
+Require stack:
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/pages/_document.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/build/utils.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1475:15)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:55:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1072:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+    at Module._load (node:internal/modules/cjs/loader:1261:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1575:12)
+    at mod.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:191:16)
+    at __webpack_require__.f.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:203:28)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:162:22)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/app/page.js:1:51476)
+    at Object.<anonymous> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/app/page.js:1:51534)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1575:12)
+    at mod.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:191:16)
+    at requirePage (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require.js:109:84)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js:98:84)
+    at async loadComponentsImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:816:17)
+    at async (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:339:20)
+    at async Span.traceAsyncFn (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/start-server.js:141:13)
+[  302303ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:45
+[  304528ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/:0
+[  304784ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  304799ms] Error: Cannot find module './948.js'
+Require stack:
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/pages/_document.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/build/utils.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js
+- /Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1475:15)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:55:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1072:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+    at Module._load (node:internal/modules/cjs/loader:1261:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1575:12)
+    at mod.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:191:16)
+    at __webpack_require__.f.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:203:28)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/webpack-runtime.js:162:22)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/app/page.js:1:51476)
+    at Object.<anonymous> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/.next/server/app/page.js:1:51534)
+    at Module._compile (node:internal/modules/cjs/loader:1829:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1969:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1575:12)
+    at mod.require (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:191:16)
+    at requirePage (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/require.js:109:84)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js:98:84)
+    at async loadComponentsImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/base-server.js:816:17)
+    at async (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:339:20)
+    at async Span.traceAsyncFn (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/server/lib/start-server.js:141:13)
+[  304799ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:45
+[  305230ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/favicon.ico:0
+[  330132ms] [ERROR] WebSocket connection to 'ws://localhost:3002/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[  331135ms] [ERROR] WebSocket connection to 'ws://localhost:3002/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[  332142ms] [ERROR] WebSocket connection to 'ws://localhost:3002/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[  333145ms] [ERROR] WebSocket connection to 'ws://localhost:3002/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[  334149ms] [ERROR] WebSocket connection to 'ws://localhost:3002/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76

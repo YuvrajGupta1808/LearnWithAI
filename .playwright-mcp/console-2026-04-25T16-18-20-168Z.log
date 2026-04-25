@@ -1,0 +1,80 @@
+[    1505ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    1513ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    1800ms] Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rh (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:40645)
+    at https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:101076
+    at uD (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:106585)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99535)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1804ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1809ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1811ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1867ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1870ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1873ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1877ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at am (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:46936)
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121491)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94418)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    1880ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at i (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:121150)
+    at uI (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99475)
+    at uM (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:99345)
+    at ux (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:96116)
+    at uS (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:94671)
+    at x (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:199979)
+    at MessagePort.R (https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:1:200509)
+[    2682ms] [ERROR] Not signed in with the identity provider. @ https://www.datacamp.com/courses/building-dashboards-with-shinydashboard:0
+[    3116ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.datacamp.com/api/users/signed_in.json:0
+[    3117ms] [WARNING] Legal Term Banner: Fetching current user 401 @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3465ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3696ms] [LOG] UET GTM listening for consent updates @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6

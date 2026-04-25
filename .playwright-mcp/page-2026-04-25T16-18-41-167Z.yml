@@ -1,0 +1,841 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - navigation "Sitewide Navigation" [ref=e4]:
+      - generic [ref=e6]:
+        - link "Navigate to Home Page" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img [ref=e9]
+        - generic [ref=e12]:
+          - generic "Catalog Menu" [ref=e13]:
+            - button "Catalog" [ref=e14] [cursor=pointer]:
+              - generic: Catalog
+              - img [ref=e15]
+          - generic "AI Upskilling Menu" [ref=e17]:
+            - button "AI Upskilling" [ref=e18] [cursor=pointer]:
+              - generic: AI Upskilling
+              - img [ref=e19]
+          - generic "Resources Menu" [ref=e21]:
+            - button "Resources" [ref=e22] [cursor=pointer]:
+              - generic: Resources
+              - img [ref=e23]
+          - generic "Pricing Menu" [ref=e25]:
+            - button "Pricing" [ref=e26] [cursor=pointer]:
+              - generic: Pricing
+              - img [ref=e27]
+          - link "For Business" [ref=e29] [cursor=pointer]:
+            - /url: /business
+          - link "For Universities" [ref=e30] [cursor=pointer]:
+            - /url: /universities
+        - generic [ref=e31]:
+          - button "Search" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+          - generic [ref=e35]:
+            - button "Select language" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - text: EN
+            - generic [ref=e39]:
+              - link "Log In" [ref=e40] [cursor=pointer]:
+                - /url: /users/sign_in
+                - generic [ref=e41]: Log in
+              - link "Get Started" [ref=e42] [cursor=pointer]:
+                - /url: /users/sign_up
+                - generic [ref=e43]: Get Started
+    - generic [ref=e44]:
+      - main [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e48]:
+            - article [ref=e49]:
+              - heading "Learn data and AI skills" [level=1] [ref=e50]
+              - paragraph [ref=e51]: Master in-demand skills in Python, ChatGPT, Power BI, and more through interactive courses, real-world projects, and industry recognized certifications
+              - generic [ref=e52]:
+                - link "Start Learning for Free" [ref=e53] [cursor=pointer]:
+                  - /url: /users/sign_up
+                  - generic [ref=e54]: Start Learning for Free
+                - link "DataCamp for Business" [ref=e55] [cursor=pointer]:
+                  - /url: /business
+                  - generic [ref=e56]: DataCamp for Business
+              - link "G2 rating for DataCamp" [ref=e58] [cursor=pointer]:
+                - /url: https://www.g2.com/products/datacamp/reviews
+                - img [ref=e59]
+            - generic [ref=e66]:
+              - heading "Create Your Free Account" [level=2] [ref=e67]
+              - link "Continue with Google" [ref=e68] [cursor=pointer]:
+                - /url: /users/auth/openid_connect?kc_idp_hint=google
+                - generic:
+                  - img [ref=e69]
+                  - text: Continue with Google
+              - generic [ref=e71] [cursor=pointer]:
+                - generic [ref=e72]: Show more options
+                - img [ref=e73]
+              - generic [ref=e75]:
+                - separator [ref=e76]
+                - paragraph [ref=e77]: or
+                - separator [ref=e78]
+              - button "Email" [ref=e79] [cursor=pointer]:
+                - generic:
+                  - img [ref=e80]
+                  - text: Email
+              - generic [ref=e83]:
+                - text: By continuing, you accept our
+                - link "Terms of Use" [ref=e84] [cursor=pointer]:
+                  - /url: /terms-of-use
+                - text: ", our"
+                - link "Privacy Policy" [ref=e85] [cursor=pointer]:
+                  - /url: /privacy-policy
+                - text: and that your data is stored in the USA.
+          - generic:
+            - img
+        - article [ref=e86]:
+          - generic [ref=e87]:
+            - link "Python" [ref=e88] [cursor=pointer]:
+              - /url: /category/python
+              - generic [ref=e89]:
+                - img [ref=e91]
+                - generic [ref=e95]: Python
+            - link "R" [ref=e96] [cursor=pointer]:
+              - /url: /category/r
+              - generic [ref=e97]:
+                - img [ref=e99]
+                - generic [ref=e103]: R
+            - link "SQL" [ref=e104] [cursor=pointer]:
+              - /url: /category/sql
+              - generic [ref=e105]:
+                - img [ref=e107]
+                - generic [ref=e109]: SQL
+            - link "ChatGPT" [ref=e110] [cursor=pointer]:
+              - /url: /category/chatgpt
+              - generic [ref=e111]:
+                - img [ref=e113]
+                - generic [ref=e118]: ChatGPT
+            - link "Power BI" [ref=e119] [cursor=pointer]:
+              - /url: /category/power-bi
+              - generic [ref=e120]:
+                - img [ref=e122]
+                - generic [ref=e124]: Power BI
+            - link "Excel" [ref=e125] [cursor=pointer]:
+              - /url: /category/excel
+              - generic [ref=e126]:
+                - img [ref=e128]
+                - generic [ref=e136]: Excel
+            - link "Snowflake" [ref=e137] [cursor=pointer]:
+              - /url: /category/snowflake
+              - generic [ref=e138]:
+                - img [ref=e140]
+                - generic [ref=e142]: Snowflake
+            - link "Git" [ref=e143] [cursor=pointer]:
+              - /url: /courses-all?technologies=Git
+              - generic [ref=e144]:
+                - img [ref=e146]
+                - generic [ref=e148]: Git
+        - generic [ref=e150]:
+          - article [ref=e151]:
+            - paragraph [ref=e152]: Why DataCamp for business?
+            - heading "Tailored data and AI upskilling for your business" [level=2] [ref=e153]
+            - generic [ref=e154]:
+              - link "DataCamp for Business" [ref=e155] [cursor=pointer]:
+                - /url: /business
+                - generic [ref=e156]: DataCamp for Business
+              - link "Request Demo" [ref=e157] [cursor=pointer]:
+                - /url: /business/demo
+                - generic [ref=e158]: Request Demo
+              - paragraph [ref=e159]: Explore industry-wide solutions by DataCamp
+              - list [ref=e161]:
+                - listitem [ref=e162]:
+                  - link "Healthcare" [ref=e163] [cursor=pointer]:
+                    - /url: /business/healthcare-industry
+                    - text: Healthcare
+                    - img [ref=e164]
+                - listitem [ref=e166]:
+                  - link "Technology" [ref=e167] [cursor=pointer]:
+                    - /url: /business/technology-industry
+                    - text: Technology
+                    - img [ref=e168]
+                - listitem [ref=e170]:
+                  - link "Energy" [ref=e171] [cursor=pointer]:
+                    - /url: /business/energy-industry
+                    - text: Energy
+                    - img [ref=e172]
+                - listitem [ref=e174]:
+                  - link "Government" [ref=e175] [cursor=pointer]:
+                    - /url: /business/government-industry
+                    - text: Government
+                    - img [ref=e176]
+          - article [ref=e178]:
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - img "Google logo" [ref=e182]
+              - listitem [ref=e184]:
+                - img "Apple logo" [ref=e185]
+              - listitem [ref=e188]:
+                - img "Microsoft logo" [ref=e189]
+              - listitem [ref=e191]:
+                - img "ING logo" [ref=e192]
+              - listitem [ref=e196]:
+                - img "3M logo" [ref=e197]
+              - listitem [ref=e199]:
+                - img "Live Nation logo" [ref=e200]
+              - listitem [ref=e206]:
+                - img "Blackstone logo" [ref=e207]
+              - listitem [ref=e209]:
+                - img "Uber logo" [ref=e210]
+              - listitem [ref=e212]:
+                - img "Tesla logo" [ref=e213]
+              - listitem [ref=e215]:
+                - img "University of Oxford logo" [ref=e216]
+              - listitem [ref=e220]:
+                - img "Duke University logo" [ref=e221]
+              - listitem [ref=e223]:
+                - img "AXA logo" [ref=e224]
+        - generic [ref=e226]:
+          - heading "A path for every goal" [level=2] [ref=e227]
+          - generic [ref=e231]:
+            - list [ref=e232]:
+              - listitem [ref=e233]:
+                - button "Top Courses" [ref=e234] [cursor=pointer]
+              - listitem [ref=e235]:
+                - button "AI" [ref=e236] [cursor=pointer]
+              - listitem [ref=e237]:
+                - button "Career Tracks" [ref=e238] [cursor=pointer]
+              - listitem [ref=e239]:
+                - button "Skill Tracks" [ref=e240] [cursor=pointer]
+              - listitem [ref=e241]:
+                - link "Explore Top Courses" [ref=e243] [cursor=pointer]:
+                  - /url: /courses-all
+                  - generic [ref=e244]: Explore Top Courses
+            - generic [ref=e247]:
+              - article [ref=e249]:
+                - generic [ref=e250]:
+                  - generic [ref=e251]:
+                    - link "Introduction to Python" [ref=e252] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/intro-to-python-for-data-science
+                      - heading "Introduction to Python" [level=3] [ref=e253]
+                    - list [ref=e254]:
+                      - listitem [ref=e255]:
+                        - generic [ref=e256]:
+                          - img [ref=e258]
+                          - generic [ref=e261]:
+                            - text: Intermediate
+                            - generic [ref=e262]: Skill Level
+                      - listitem [ref=e263]:
+                        - img [ref=e264]
+                        - generic [ref=e266]: 4 hr
+                    - paragraph [ref=e267]: Master the basics of data analysis with Python in just four hours. This online course will introduce the Python interface and explore popular packages.
+                  - link "See Details Right Arrow" [ref=e270] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/intro-to-python-for-data-science
+                    - generic [ref=e272]:
+                      - generic [ref=e273]: See Details
+                      - img "Right Arrow" [ref=e274]
+              - article [ref=e277]:
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - link "Introduction to SQL" [ref=e280] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/introduction-to-sql
+                      - heading "Introduction to SQL" [level=3] [ref=e281]
+                    - list [ref=e282]:
+                      - listitem [ref=e283]:
+                        - generic [ref=e284]:
+                          - img [ref=e286]
+                          - generic [ref=e289]:
+                            - text: Intermediate
+                            - generic [ref=e290]: Skill Level
+                      - listitem [ref=e291]:
+                        - img [ref=e292]
+                        - generic [ref=e294]: 2 hr
+                    - paragraph [ref=e295]: Learn how to create and query relational databases using SQL in just two hours.
+                  - link "AI Native" [ref=e297] [cursor=pointer]:
+                    - /url: /learn/ai-native
+                    - generic [ref=e300]:
+                      - img [ref=e301]
+                      - text: AI Native
+                  - link "See Details Right Arrow" [ref=e305] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/introduction-to-sql
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: See Details
+                      - img "Right Arrow" [ref=e309]
+              - article [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - link "Introduction to Power BI" [ref=e315] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/introduction-to-power-bi
+                      - heading "Introduction to Power BI" [level=3] [ref=e316]
+                    - list [ref=e317]:
+                      - listitem [ref=e318]:
+                        - generic [ref=e319]:
+                          - img [ref=e321]
+                          - generic [ref=e324]:
+                            - text: Intermediate
+                            - generic [ref=e325]: Skill Level
+                      - listitem [ref=e326]:
+                        - img [ref=e327]
+                        - generic [ref=e329]: 4 hr
+                    - paragraph [ref=e330]: Master the Power BI basics and learn to use the data visualization software to build impactful reports.
+                  - link "See Details Right Arrow" [ref=e333] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/introduction-to-power-bi
+                    - generic [ref=e335]:
+                      - generic [ref=e336]: See Details
+                      - img "Right Arrow" [ref=e337]
+              - article [ref=e340]:
+                - generic [ref=e341]:
+                  - generic [ref=e342]:
+                    - link "Understanding Artificial Intelligence" [ref=e343] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/understanding-artificial-intelligence
+                      - heading "Understanding Artificial Intelligence" [level=3] [ref=e344]
+                    - list [ref=e345]:
+                      - listitem [ref=e346]:
+                        - generic [ref=e347]:
+                          - img [ref=e349]
+                          - generic [ref=e352]:
+                            - text: Intermediate
+                            - generic [ref=e353]: Skill Level
+                      - listitem [ref=e354]:
+                        - img [ref=e355]
+                        - generic [ref=e357]: 2 hr
+                    - paragraph [ref=e358]: Learn the basic concepts of Artificial Intelligence, such as machine learning, deep learning, NLP, generative AI, and more.
+                  - link "See Details Right Arrow" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/understanding-artificial-intelligence
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: See Details
+                      - img "Right Arrow" [ref=e365]
+              - article [ref=e368]:
+                - generic [ref=e369]:
+                  - generic [ref=e370]:
+                    - link "Introduction to Tableau" [ref=e371] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/introduction-to-tableau
+                      - heading "Introduction to Tableau" [level=3] [ref=e372]
+                    - list [ref=e373]:
+                      - listitem [ref=e374]:
+                        - generic [ref=e375]:
+                          - img [ref=e377]
+                          - generic [ref=e380]:
+                            - text: Intermediate
+                            - generic [ref=e381]: Skill Level
+                      - listitem [ref=e382]:
+                        - img [ref=e383]
+                        - generic [ref=e385]: 6 hr
+                    - paragraph [ref=e386]: Start your Tableau journey with our Introduction to Tableau course. Discover Tableau basics such as its features and dashboards.
+                  - link "See Details Right Arrow" [ref=e389] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/introduction-to-tableau
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: See Details
+                      - img "Right Arrow" [ref=e393]
+              - article [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e398]:
+                    - link "Introduction to Excel" [ref=e399] [cursor=pointer]:
+                      - /url: https://www.datacamp.com/courses/introduction-to-excel
+                      - heading "Introduction to Excel" [level=3] [ref=e400]
+                    - list [ref=e401]:
+                      - listitem [ref=e402]:
+                        - generic [ref=e403]:
+                          - img [ref=e405]
+                          - generic [ref=e408]:
+                            - text: Intermediate
+                            - generic [ref=e409]: Skill Level
+                      - listitem [ref=e410]:
+                        - img [ref=e411]
+                        - generic [ref=e413]: 4 hr
+                    - paragraph [ref=e414]: Master the Excel basics and learn to use this spreadsheet tool to conduct impactful analysis.
+                  - link "See Details Right Arrow" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.datacamp.com/courses/introduction-to-excel
+                    - generic [ref=e419]:
+                      - generic [ref=e420]: See Details
+                      - img "Right Arrow" [ref=e421]
+        - generic [ref=e424]:
+          - link "Illustration of The 2026 State of Data & AI Literacy Report" [ref=e425] [cursor=pointer]:
+            - /url: /business/2026-data-ai-literacy-report
+            - img "Illustration of The 2026 State of Data & AI Literacy Report" [ref=e426]
+          - generic [ref=e427]:
+            - heading "3 in 5 leaders admit they have a data or AI skills gap" [level=2] [ref=e428]
+            - paragraph [ref=e429]: Get the facts behind the skills gap—and what it takes to close it—in the 2026 State of Data & AI Literacy Report, based on a YouGov survey of 500+ leaders in the US and UK.
+            - link "Read the Full Report" [ref=e430] [cursor=pointer]:
+              - /url: /business/2026-data-ai-literacy-report
+              - generic [ref=e431]:
+                - img [ref=e432]
+                - text: Read the Full Report
+        - generic [ref=e435]:
+          - heading "Find your data and AI path" [level=2] [ref=e436]
+          - generic [ref=e437]:
+            - article [ref=e438]:
+              - generic [ref=e439]:
+                - figure [ref=e440]:
+                  - img "Photo of a person who is a career switcher" [ref=e441]
+                - heading "I'm switching careers" [level=5] [ref=e442]:
+                  - link "I'm switching careers" [ref=e443] [cursor=pointer]:
+                    - /url: /tracks/career
+                - paragraph [ref=e444]: Break into data and AI with zero coding experience. Our step-by-step courses and real-world projects take you from beginner to job-ready, with a portfolio that catches employers' attention.
+              - link "Learn More About Career Switching" [ref=e445] [cursor=pointer]:
+                - /url: /tracks/career
+                - generic [ref=e446]: Learn More About Career Switching
+            - article [ref=e447]:
+              - generic [ref=e448]:
+                - figure [ref=e449]:
+                  - img "Photo of a person who is a team leader" [ref=e450]
+                - heading "I'm a team leader" [level=5] [ref=e451]:
+                  - link "I'm a team leader" [ref=e452] [cursor=pointer]:
+                    - /url: /business
+                - paragraph [ref=e453]: Transform your organization's data capabilities with customized learning paths and tracking features. Empower your team to drive innovation—seamlessly aligned with your tech stack and business goals.
+              - link "DataCamp for Business" [ref=e454] [cursor=pointer]:
+                - /url: /business
+                - generic [ref=e455]: DataCamp for Business
+            - article [ref=e456]:
+              - generic [ref=e457]:
+                - figure [ref=e458]:
+                  - img "Photo of a person who is a skill builder" [ref=e459]
+                - heading "I want to skill up" [level=5] [ref=e460]:
+                  - link "I want to skill up" [ref=e461] [cursor=pointer]:
+                    - /url: /tracks/skill
+                - paragraph [ref=e462]: Level up your toolkit with advanced data and AI techniques through self-paced courses. From automation to advanced analytics, master the skills that make you indispensable.
+              - link "Learn More About Skill Learning Paths" [ref=e463] [cursor=pointer]:
+                - /url: /tracks/skill
+                - generic [ref=e464]: Learn More About Skill Learning Paths
+        - heading "A learning model that powers career transformation" [level=2] [ref=e467]
+        - generic [ref=e468]:
+          - generic [ref=e469]:
+            - list [ref=e470]:
+              - listitem [ref=e471]:
+                - img "Animation of interactive exercises" [ref=e472]
+              - listitem:
+                - img
+            - list [ref=e473]:
+              - listitem [ref=e474]:
+                - generic [ref=e475]:
+                  - button "Currently viewing Hands-on, interactive courses" [pressed] [ref=e476] [cursor=pointer]:
+                    - generic [ref=e477]: Currently Viewing
+                  - generic [ref=e478]:
+                    - img [ref=e481]
+                    - heading "Hands-on, interactive courses" [level=3] [ref=e483]
+                  - paragraph [ref=e484]: Short videos are broken up by interactive exercises. Practice new skills immediately to retain information
+                  - link "Explore Courses":
+                    - /url: /courses-all
+                    - generic: Explore Courses
+              - listitem [ref=e485]:
+                - generic [ref=e486]:
+                  - button [ref=e487] [cursor=pointer]:
+                    - generic [ref=e488]: View Become a certified professional
+                  - generic [ref=e489]:
+                    - img [ref=e492]
+                    - heading [level=3] [ref=e494]: Become a certified professional
+                  - paragraph [ref=e495]: Prove you're job-ready. Earn industry-leading certifications built around in-demand roles.
+          - generic:
+            - img
+        - generic [ref=e497]:
+          - heading "Learn from experts at the world's top organizations" [level=3] [ref=e498]
+          - generic [ref=e499]:
+            - 'figure "Leondra Gonzalez Data Storytelling Case Study: College Majors" [ref=e501]':
+              - img "Leondra Gonzalez" [ref=e502]
+              - generic [ref=e503]:
+                - paragraph [ref=e504]: Leondra Gonzalez
+                - img [ref=e506]
+                - 'link "Data Storytelling Case Study: College Majors" [ref=e512] [cursor=pointer]':
+                  - /url: /courses/data-storytelling-case-study-college-majors
+                  - generic [ref=e513]:
+                    - text: "Data Storytelling Case Study: College Majors"
+                    - img [ref=e514]
+            - figure "Daniel Tedesco Generative AI Concepts" [ref=e517]:
+              - img "Daniel Tedesco" [ref=e518]
+              - generic [ref=e519]:
+                - paragraph [ref=e520]: Daniel Tedesco
+                - img [ref=e522]
+                - link "Generative AI Concepts" [ref=e524] [cursor=pointer]:
+                  - /url: /courses/generative-ai-concepts
+                  - generic [ref=e525]:
+                    - text: Generative AI Concepts
+                    - img [ref=e526]
+            - figure "Aaren Stubberfield Joining Data with pandas" [ref=e529]:
+              - img "Aaren Stubberfield" [ref=e530]
+              - generic [ref=e531]:
+                - paragraph [ref=e532]: Aaren Stubberfield
+                - img [ref=e534]
+                - link "Joining Data with pandas" [ref=e540] [cursor=pointer]:
+                  - /url: /courses/joining-data-with-pandas
+                  - generic [ref=e541]:
+                    - text: Joining Data with pandas
+                    - img [ref=e542]
+            - figure "Kevin Barlow Introduction to Databricks" [ref=e545]:
+              - img "Kevin Barlow" [ref=e546]
+              - generic [ref=e547]:
+                - paragraph [ref=e548]: Kevin Barlow
+                - img [ref=e550]
+                - link "Introduction to Databricks" [ref=e553] [cursor=pointer]:
+                  - /url: /courses/introduction-to-databricks
+                  - generic [ref=e554]:
+                    - text: Introduction to Databricks
+                    - img [ref=e555]
+        - generic [ref=e558]:
+          - figure [ref=e559]:
+            - img "Screenshot of AI hint" [ref=e560]
+          - article [ref=e561]:
+            - heading "AI-powered interactive learning that works for you" [level=4] [ref=e562]
+            - heading "Never get stuck with AI" [level=5] [ref=e563]
+            - paragraph [ref=e564]: From tailored career advice to instant feedback and code explanation, learn smarter with built-in AI support at every step of your journey
+            - link "Start Learning for Free" [ref=e565] [cursor=pointer]:
+              - /url: /users/sign_up
+              - generic [ref=e566]: Start Learning for Free
+        - generic [ref=e568]:
+          - figure [ref=e569]:
+            - img "Switch between <highlight>desktop</highlight> and <highlight>mobile</highlight> to continue learning" [ref=e570]
+          - figure [ref=e571]:
+            - img "Switch between <highlight>desktop</highlight> and <highlight>mobile</highlight> to continue learning" [ref=e572]
+          - article [ref=e573]:
+            - heading "Switch between desktop and mobile to continue learning" [level=4] [ref=e574]
+            - paragraph [ref=e575]: Unlock skills faster in the DataCamp Mobile app by practicing code, watching videos, and keeping your streak alive!
+            - paragraph [ref=e576]: Download the DataCamp app.
+            - link "Download on the App Store" [ref=e577] [cursor=pointer]:
+              - /url: https://datacamp.onelink.me/xztQ/m3v705dq?deep_link_sub1=%7B%22src_url%22%3A%22https%3A%2F%2Fwww.datacamp.com%22%7D
+              - img [ref=e579]
+              - generic [ref=e584]: Download on the App Store
+            - link "Get it on Google Play" [ref=e585] [cursor=pointer]:
+              - /url: https://datacamp.onelink.me/xztQ/z7z0wm3b?deep_link_sub1=%7B%22src_url%22%3A%22https%3A%2F%2Fwww.datacamp.com%22%7D
+              - img [ref=e587]
+              - generic [ref=e600]: Get it on Google Play
+        - generic [ref=e602]:
+          - 'img "Two DataCamp success stories: Chioma (FCMB) and Stephen (ExxonMobil) became Data Engineers through online courses, earning 50K+ and 15K+ XP, respectively." [ref=e605]'
+          - generic [ref=e606]:
+            - heading "Land your dream job in data and AI" [level=2] [ref=e607]
+            - generic [ref=e608]: From earning an industry-leading data or AI certification to personalized resume reviews and interview prep—we've got you covered.
+            - link "Explore Certification" [ref=e609] [cursor=pointer]:
+              - /url: /certification
+              - generic [ref=e610]: Explore Certification
+        - generic [ref=e612]:
+          - heading "Why 19M+ choose DataCamp" [level=2] [ref=e613]
+          - generic [ref=e614]:
+            - article [ref=e616]:
+              - heading "“As a manager, DataCamp helps me show my team new packages and new ways to solve problems.”" [level=3] [ref=e617]
+              - generic [ref=e618]:
+                - img "Gabriel Lages" [ref=e619]
+                - generic [ref=e620]:
+                  - paragraph [ref=e621]: Gabriel Lages
+                  - paragraph [ref=e622]: Business Intelligence and Analytics Manager
+            - article [ref=e624]:
+              - heading "“Datacamp was how I got into my Masters program. The real-world projects and short video lessons were a game changer. They made complex topics easy to understand and apply.”" [level=3] [ref=e625]
+              - generic [ref=e626]:
+                - img "Ebuka Nwafornso" [ref=e627]
+                - generic [ref=e628]:
+                  - paragraph [ref=e629]: Ebuka Nwafornso
+                  - paragraph [ref=e630]: Graduate Student, University College Dublin
+            - article [ref=e632]:
+              - heading "“We think of it as everyone's responsibility in the organization to be more data-driven. After all, every single one of us is probably touching data in some way, regardless of your role.”" [level=3] [ref=e633]
+              - generic [ref=e634]:
+                - img "Rachel Alt-Simmons" [ref=e635]
+                - generic [ref=e636]:
+                  - paragraph [ref=e637]: Rachel Alt-Simmons
+                  - paragraph [ref=e638]: Head Of Strategic Design, Data, Pricing And Analytics
+            - article [ref=e640]:
+              - heading "“Only DataCamp provides the interactive experience that reinforces learning. There’s an excellent content depth—great for absolute beginners to experienced users.”" [level=3] [ref=e641]
+              - generic [ref=e642]:
+                - img "Sarah Schlobohm" [ref=e643]
+                - generic [ref=e644]:
+                  - paragraph [ref=e645]: Sarah Schlobohm
+                  - paragraph [ref=e646]: Senior Analytics Manager, Global Risk Analytics, HSBC
+            - article [ref=e648]:
+              - heading "“On DataCamp, you learn from the experts. As you are taking courses, you are really learning from the best instructors in the world.”" [level=3] [ref=e649]
+              - generic [ref=e650]:
+                - img "Ofentswe Lebogo" [ref=e651]
+                - generic [ref=e652]:
+                  - paragraph [ref=e653]: Ofentswe Lebogo
+                  - paragraph [ref=e654]: Data Scientist, Council for Scientific and Industrial Research (CSIR)
+            - article [ref=e656]:
+              - heading "“I've used other sites—Coursera, Udacity, things like that—but DataCamp's been the one that I've stuck with.”" [level=3] [ref=e657]
+              - generic [ref=e658]:
+                - img "Devon Edwards Joseph" [ref=e659]
+                - generic [ref=e660]:
+                  - paragraph [ref=e661]: Devon Edwards Joseph
+                  - paragraph [ref=e662]: Lloyds Banking Group
+        - generic [ref=e664]:
+          - heading "Are you a teacher?" [level=3] [ref=e665]
+          - paragraph [ref=e666]:
+            - text: DataCamp Classrooms is
+            - strong [ref=e667]: free
+            - text: for you and your students
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - list [ref=e670]:
+                - listitem [ref=e671]:
+                  - strong [ref=e672]: 1M
+                  - text: Teachers and Students
+                - listitem [ref=e673]:
+                  - strong [ref=e674]: 14K+
+                  - text: Schools
+              - list [ref=e675]:
+                - listitem [ref=e676]:
+                  - strong [ref=e677]: 180+
+                  - text: Countries
+                - listitem [ref=e678]:
+                  - strong [ref=e679]: "6"
+                  - text: months of free access for every classroom
+            - img "Photo of a teacher and students" [ref=e681]
+          - link "Teach with DataCamp" [ref=e682] [cursor=pointer]:
+            - /url: /universities
+            - generic [ref=e683]:
+              - text: Teach with DataCamp
+              - img [ref=e684]
+        - generic [ref=e686]:
+          - generic [ref=e687]:
+            - article [ref=e688]:
+              - heading "Join 19M+ learners worldwide" [level=2] [ref=e689]
+              - link "G2 rating for DataCamp" [ref=e691] [cursor=pointer]:
+                - /url: https://www.g2.com/products/datacamp/reviews
+                - img [ref=e692]
+            - generic [ref=e699]:
+              - heading "Create Your Free Account" [level=3] [ref=e700]
+              - generic [ref=e701]:
+                - link "Sign up with Google" [ref=e702] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=google
+                  - img [ref=e704]
+                - link "Sign up with LinkedIn" [ref=e709] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=linkedin-openid-connect
+                  - img [ref=e711]
+                - link "Sign up with Facebook" [ref=e713] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=facebook
+                  - img [ref=e715]
+                - link "Sign up with Apple" [ref=e718] [cursor=pointer]:
+                  - /url: /users/auth/openid_connect?kc_idp_hint=apple
+                  - img [ref=e720]
+              - paragraph [ref=e722]:
+                - generic [ref=e723]: or
+              - generic [ref=e724]:
+                - group [ref=e725]:
+                  - generic [ref=e726]:
+                    - generic [ref=e729]: Email Address
+                    - textbox "Email Address" [ref=e731]
+                - group [ref=e732]:
+                  - generic [ref=e733]:
+                    - generic [ref=e736]: Password
+                    - generic [ref=e737]:
+                      - textbox "Password Show Password" [ref=e738]:
+                        - /placeholder: Password
+                      - button "Show Password" [ref=e739]:
+                        - img [ref=e741]
+                - button "Start Learning for Free" [ref=e743] [cursor=pointer]:
+                  - generic [ref=e744]: Start Learning for Free
+              - generic [ref=e745]:
+                - text: By continuing, you accept our
+                - link "Terms of Use" [ref=e746] [cursor=pointer]:
+                  - /url: /terms-of-use
+                - text: ", our"
+                - link "Privacy Policy" [ref=e747] [cursor=pointer]:
+                  - /url: /privacy-policy
+                - text: and that your data is stored in the USA.
+          - generic:
+            - img
+      - contentinfo [ref=e748]:
+        - generic [ref=e749]:
+          - generic [ref=e751]:
+            - generic [ref=e753]:
+              - strong [ref=e754]: Learn
+              - generic [ref=e755]:
+                - link "Learn Python" [ref=e756] [cursor=pointer]:
+                  - /url: /blog/how-to-learn-python-expert-guide
+                - link "Learn AI" [ref=e757] [cursor=pointer]:
+                  - /url: /blog/how-to-learn-ai
+                - link "Learn Power BI" [ref=e758] [cursor=pointer]:
+                  - /url: /learn/power-bi
+                - link "Learn Data Engineering" [ref=e759] [cursor=pointer]:
+                  - /url: /category/data-engineering
+                - link "Assessments" [ref=e760] [cursor=pointer]:
+                  - /url: /signal
+                - link "Career Tracks" [ref=e761] [cursor=pointer]:
+                  - /url: /tracks/career
+                - link "Skill Tracks" [ref=e762] [cursor=pointer]:
+                  - /url: /tracks/skill
+                - link "Courses" [ref=e763] [cursor=pointer]:
+                  - /url: /courses-all
+                - link "Data Science Roadmap" [ref=e764] [cursor=pointer]:
+                  - /url: /blog/data-science-roadmap
+            - generic [ref=e766]:
+              - strong [ref=e767]: Data Courses
+              - generic [ref=e768]:
+                - link "Python Courses" [ref=e769] [cursor=pointer]:
+                  - /url: /category/python
+                - link "R Courses" [ref=e770] [cursor=pointer]:
+                  - /url: /category/r
+                - link "SQL Courses" [ref=e771] [cursor=pointer]:
+                  - /url: /category/sql
+                - link "Power BI Courses" [ref=e772] [cursor=pointer]:
+                  - /url: /category/power-bi
+                - link "Tableau Courses" [ref=e773] [cursor=pointer]:
+                  - /url: /category/tableau
+                - link "Alteryx Courses" [ref=e774] [cursor=pointer]:
+                  - /url: /category/alteryx
+                - link "Azure Courses" [ref=e775] [cursor=pointer]:
+                  - /url: /category/azure
+                - link "AWS Courses" [ref=e776] [cursor=pointer]:
+                  - /url: /category/aws
+                - link "Google Cloud Courses" [ref=e777] [cursor=pointer]:
+                  - /url: /category/google-cloud
+                - link "Google Sheets Courses" [ref=e778] [cursor=pointer]:
+                  - /url: /category/google-sheets
+                - link "Excel Courses" [ref=e779] [cursor=pointer]:
+                  - /url: /category/excel
+                - link "AI Courses" [ref=e780] [cursor=pointer]:
+                  - /url: /category/artificial-intelligence
+                - link "Data Analysis Courses" [ref=e781] [cursor=pointer]:
+                  - /url: /category/data-analysis
+                - link "Data Visualization Courses" [ref=e782] [cursor=pointer]:
+                  - /url: /category/data-visualization
+                - link "Machine Learning Courses" [ref=e783] [cursor=pointer]:
+                  - /url: /category/machine-learning
+                - link "Data Engineering Courses" [ref=e784] [cursor=pointer]:
+                  - /url: /category/data-engineering
+                - link "Probability & Statistics Courses" [ref=e785] [cursor=pointer]:
+                  - /url: /category/probability-and-statistics
+            - generic [ref=e786]:
+              - generic [ref=e787]:
+                - strong [ref=e788]: DataLab
+                - generic [ref=e789]:
+                  - link "Get Started" [ref=e790] [cursor=pointer]:
+                    - /url: /datalab
+                  - link "Pricing" [ref=e791] [cursor=pointer]:
+                    - /url: /datalab/pricing
+                  - link "Security" [ref=e792] [cursor=pointer]:
+                    - /url: /datalab/security
+                  - link "Documentation" [ref=e793] [cursor=pointer]:
+                    - /url: https://datalab-docs.datacamp.com
+              - generic [ref=e794]:
+                - strong [ref=e795]: Certification
+                - generic [ref=e796]:
+                  - link "Certifications" [ref=e797] [cursor=pointer]:
+                    - /url: /certification
+                  - link "Data Scientist" [ref=e798] [cursor=pointer]:
+                    - /url: /certification/data-scientist
+                  - link "Data Analyst" [ref=e799] [cursor=pointer]:
+                    - /url: /certification/data-analyst
+                  - link "Data Engineer" [ref=e800] [cursor=pointer]:
+                    - /url: /certification/data-engineer
+                  - link "SQL Associate" [ref=e801] [cursor=pointer]:
+                    - /url: /certification/sql-associate
+                  - link "Power BI Data Analyst" [ref=e802] [cursor=pointer]:
+                    - /url: /certification/data-analyst-in-power-bi
+                  - link "Tableau Certified Data Analyst" [ref=e803] [cursor=pointer]:
+                    - /url: /certification/data-analyst-in-tableau
+                  - link "Azure Fundamentals" [ref=e804] [cursor=pointer]:
+                    - /url: /certification/azure-fundamentals
+                  - link "AI Fundamentals" [ref=e805] [cursor=pointer]:
+                    - /url: /certification/ai-fundamentals
+            - generic [ref=e807]:
+              - strong [ref=e808]: Resources
+              - generic [ref=e809]:
+                - link "Resource Center" [ref=e810] [cursor=pointer]:
+                  - /url: /resources
+                - link "Upcoming Events" [ref=e811] [cursor=pointer]:
+                  - /url: /webinars
+                - link "Blog" [ref=e812] [cursor=pointer]:
+                  - /url: /blog
+                - link "Code-Alongs" [ref=e813] [cursor=pointer]:
+                  - /url: /code-along
+                - link "Tutorials" [ref=e814] [cursor=pointer]:
+                  - /url: /tutorial
+                - link "Docs" [ref=e815] [cursor=pointer]:
+                  - /url: /doc
+                - link "Open Source" [ref=e816] [cursor=pointer]:
+                  - /url: /open-source
+                - link "RDocumentation" [ref=e817] [cursor=pointer]:
+                  - /url: https://www.rdocumentation.org
+                - link "Book a Demo with DataCamp for Business" [ref=e818] [cursor=pointer]:
+                  - /url: /business/demo
+                - link "Data Portfolio" [ref=e819] [cursor=pointer]:
+                  - /url: /data-portfolio
+            - generic [ref=e820]:
+              - generic [ref=e821]:
+                - strong [ref=e822]: Plans
+                - generic [ref=e823]:
+                  - link "Pricing" [ref=e824] [cursor=pointer]:
+                    - /url: /pricing
+                  - link "For Students" [ref=e825] [cursor=pointer]:
+                    - /url: /pricing/student
+                  - link "For Business" [ref=e826] [cursor=pointer]:
+                    - /url: /business
+                  - link "For Universities" [ref=e827] [cursor=pointer]:
+                    - /url: /universities
+                  - link "Discounts, Promos & Sales" [ref=e828] [cursor=pointer]:
+                    - /url: /promo
+                  - link "Expense DataCamp" [ref=e829] [cursor=pointer]:
+                    - /url: /expense
+                  - link "DataCamp Donates" [ref=e830] [cursor=pointer]:
+                    - /url: /donates
+              - generic [ref=e831]:
+                - strong [ref=e832]: For Business
+                - generic [ref=e833]:
+                  - link "Business Pricing" [ref=e834] [cursor=pointer]:
+                    - /url: /business/compare-plans
+                  - link "Teams Plan" [ref=e835] [cursor=pointer]:
+                    - /url: /business/learn-teams
+                  - link "Data & AI Unlimited Plan" [ref=e836] [cursor=pointer]:
+                    - /url: /business/data-unlimited
+                  - link "Customer Stories" [ref=e837] [cursor=pointer]:
+                    - /url: /business/customer-stories
+                  - link "Partner Program" [ref=e838] [cursor=pointer]:
+                    - /url: /business/partner-program
+            - generic [ref=e839]:
+              - generic [ref=e840]:
+                - strong [ref=e841]: About
+                - generic [ref=e842]:
+                  - link "About Us" [ref=e843] [cursor=pointer]:
+                    - /url: /about
+                  - link "Learner Stories" [ref=e844] [cursor=pointer]:
+                    - /url: /stories
+                  - link "Careers" [ref=e845] [cursor=pointer]:
+                    - /url: /careers
+                  - link "Become an Instructor" [ref=e846] [cursor=pointer]:
+                    - /url: /learn/create
+                  - link "Press" [ref=e847] [cursor=pointer]:
+                    - /url: /press
+                  - link "Leadership" [ref=e848] [cursor=pointer]:
+                    - /url: /about/leadership
+                  - link "Contact Us" [ref=e849] [cursor=pointer]:
+                    - /url: https://support.datacamp.com/hc/en-us/articles/360021185634
+                  - link "DataCamp Español" [ref=e850] [cursor=pointer]:
+                    - /url: /es
+                  - link "DataCamp Português" [ref=e851] [cursor=pointer]:
+                    - /url: /pt
+                  - link "DataCamp Deutsch" [ref=e852] [cursor=pointer]:
+                    - /url: /de
+                  - link "DataCamp Français" [ref=e853] [cursor=pointer]:
+                    - /url: /fr
+              - generic [ref=e854]:
+                - strong [ref=e855]: Support
+                - generic [ref=e856]:
+                  - link "Help Center" [ref=e857] [cursor=pointer]:
+                    - /url: https://support.datacamp.com/hc/en-us
+                  - link "Become an Affiliate" [ref=e858] [cursor=pointer]:
+                    - /url: /affiliates
+          - img [ref=e859]
+          - generic [ref=e863]:
+            - generic [ref=e864]:
+              - link "Facebook" [ref=e865] [cursor=pointer]:
+                - /url: https://www.facebook.com/datacampinc/
+                - img [ref=e866]
+                - generic [ref=e868]: Facebook
+              - link "Twitter" [ref=e869] [cursor=pointer]:
+                - /url: https://twitter.com/datacamp
+                - img [ref=e870]
+                - generic [ref=e872]: Twitter
+              - link "LinkedIn" [ref=e873] [cursor=pointer]:
+                - /url: https://www.linkedin.com/school/datacampinc/
+                - img [ref=e874]
+                - generic [ref=e876]: LinkedIn
+              - link "YouTube" [ref=e877] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC79Gv3mYp6zKiSwYemEik9A
+                - img [ref=e878]
+                - generic [ref=e880]: YouTube
+              - link "Instagram" [ref=e881] [cursor=pointer]:
+                - /url: https://www.instagram.com/datacamp/
+                - img [ref=e882]
+                - generic [ref=e884]: Instagram
+            - generic [ref=e885]:
+              - link "Privacy Policy" [ref=e886] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Cookie Notice" [ref=e887] [cursor=pointer]:
+                - /url: /cookie-notice
+              - link "Do Not Sell My Personal Information" [ref=e888] [cursor=pointer]:
+                - /url: /do-not-sell-my-personal-information
+              - link "Accessibility" [ref=e889] [cursor=pointer]:
+                - /url: /accessibility
+              - link "Security" [ref=e890] [cursor=pointer]:
+                - /url: /security
+              - link "Terms of Use" [ref=e891] [cursor=pointer]:
+                - /url: /terms-of-use
+            - paragraph [ref=e892]: © 2026 DataCamp, Inc. All Rights Reserved.
+  - alert [ref=e893]

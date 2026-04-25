@@ -1,0 +1,12 @@
+[     913ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[     919ms] [WARNING] react-i18next:: You will need to pass in an i18next instance by using initReactI18next @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    1253ms] [ERROR] Error: <mask> attribute height: Expected length, "auto". @ https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:0
+[    1253ms] [ERROR] Error: <svg> attribute height: Expected length, "auto". @ https://www.datacamp.com/_next/static/chunks/framework-14a02dd5e036ebf0.js:0
+[    3028ms] [ERROR] Not signed in with the identity provider. @ https://www.datacamp.com/:0
+[    3247ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.datacamp.com/api/users/signed_in.json:0
+[    3248ms] [WARNING] Legal Term Banner: Fetching current user 401 @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3338ms] [INFO] Bucket in experiment: Please use experiment_name rather than experimentName @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3344ms] [INFO] Heap - Event: Hightouch Events is not loaded. Event will NOT be recorded. @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3353ms] [INFO] Heap - Event: Hightouch Events is not loaded. Event will NOT be recorded. @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3388ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6
+[    3451ms] [LOG] UET GTM listening for consent updates @ https://www.datacamp.com/_next/static/chunks/pages/_app-6bec0f299865ba8f.js:6

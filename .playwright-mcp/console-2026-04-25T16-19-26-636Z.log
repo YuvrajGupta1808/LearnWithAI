@@ -1,0 +1,120 @@
+[   23031ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[   23151ms] [WARNING] Image with src "http://localhost:3002/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[   62514ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[   65703ms] [LOG] [Fast Refresh] done in 3190ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[   73912ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[   76367ms] [LOG] [Fast Refresh] done in 2455ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[   97258ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[   99391ms] [LOG] [Fast Refresh] done in 2134ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  166714ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  166871ms] [ERROR] ./app/_components/Hero.jsx
+Error: 
+  × Expected corresponding JSX closing tag for <section>
+     ╭─[/Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/app/_components/Hero.jsx:104:1]
+ 104 │             </div>
+ 105 │           </div>
+ 106 │         </div>
+ 107 │       </div>
+     ·       ──────
+ 108 │ 
+ 109 │       <section className="border-b border-white/10 bg-[#0d2033]">
+ 110 │         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-5 py-6 text-sm font-bold text-slate-300 sm:px-8">
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_components/Hero.jsx
+./app/page.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  176433ms] [LOG] [Fast Refresh] done in 9719ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  180460ms] [LOG] [Fast Refresh] done in 13745ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  181431ms] [ERROR] ./app/_components/Hero.jsx
+Error: 
+  × Expected corresponding JSX closing tag for <section>
+     ╭─[/Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/app/_components/Hero.jsx:104:1]
+ 104 │             </div>
+ 105 │           </div>
+ 106 │         </div>
+ 107 │       </div>
+     ·       ──────
+ 108 │ 
+ 109 │       <section className="border-b border-white/10 bg-[#0d2033]">
+ 110 │         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-5 py-6 text-sm font-bold text-slate-300 sm:px-8">
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/_components/Hero.jsx
+./app/page.js @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  182244ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=r3yhw:0
+[  182517ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=r3yhw:0
+[  183039ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=r3yhw:0
+[  183509ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/:0
+[  184638ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  184792ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error: 
+  × Expected corresponding JSX closing tag for <section>
+     ╭─[/Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/app/_components/Hero.jsx:104:1]
+ 104 │             </div>
+ 105 │           </div>
+ 106 │         </div>
+ 107 │       </div>
+     ·       ──────
+ 108 │ 
+ 109 │       <section className="border-b border-white/10 bg-[#0d2033]">
+ 110 │         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-5 py-6 text-sm font-bold text-slate-300 sm:px-8">
+     ╰────
+
+
+Caused by:
+    Syntax Error
+    at processResult (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/webpack/bundle5.js:28:400590)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/webpack/bundle5.js:28:402302)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8645)
+    at <unknown> (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5019)
+    at r.callback (file:///Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4039)
+[  184715ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:45
+[  184718ms] [ERROR] ./app/_components/Hero.jsx
+Error: 
+  × Expected corresponding JSX closing tag for <section>
+     ╭─[/Users/pramodthebe/Desktop/learnWithAI/ai-course-generator-main/app/_components/Hero.jsx:104:1]
+ 104 │             </div>
+ 105 │           </div>
+ 106 │         </div>
+ 107 │       </div>
+     ·       ──────
+ 108 │ 
+ 109 │       <section className="border-b border-white/10 bg-[#0d2033]">
+ 110 │         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-5 py-6 text-sm font-bold text-slate-300 sm:px-8">
+     ╰────
+
+Caused by:
+    Syntax Error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  185546ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  189435ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/_next/static/webpack/d561034430ec2ab3.webpack.hot-update.json:0
+[  189436ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[  191178ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[  191288ms] [WARNING] Image with src "http://localhost:3002/logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/shared/lib/utils/warn-once.js:15
+[  193672ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  194221ms] [LOG] [Fast Refresh] done in 546ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  210338ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  210686ms] [LOG] [Fast Refresh] done in 347ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  224837ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  225645ms] [LOG] [Fast Refresh] done in 807ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  252185ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  252617ms] [LOG] [Fast Refresh] done in 432ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  283738ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  284773ms] [LOG] [Fast Refresh] done in 1036ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  296490ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  296807ms] [LOG] [Fast Refresh] done in 317ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  331134ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  331969ms] [LOG] [Fast Refresh] done in 836ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  344265ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  346523ms] [LOG] [Fast Refresh] done in 2257ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  358500ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  358807ms] [LOG] [Fast Refresh] done in 308ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  378170ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  378336ms] [LOG] [Fast Refresh] done in 167ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43

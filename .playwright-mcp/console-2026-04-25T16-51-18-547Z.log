@@ -1,0 +1,8 @@
+[     190ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[     936ms] [LOG] [Fast Refresh] done in 746ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[    2259ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[    2436ms] [LOG] [] @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:67
+[    2438ms] [LOG] [] @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:67
+[  362687ms] [LOG] {category: Programming} @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:67
+[  463802ms] [LOG] {category: Programming, topic: React Hooks for Beginners} @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:67
+[  463846ms] [LOG] {category: Programming, topic: React Hooks for Beginners, description: Teach practical hooks with examples and exercises.} @ webpack-internal:///(app-pages-browser)/./app/create-course/page.jsx:67

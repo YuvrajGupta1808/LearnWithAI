@@ -1,0 +1,91 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "LearnWithAI logo LearnWithAI" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "LearnWithAI logo" [ref=e7]
+        - generic [ref=e8]: LearnWithAI
+      - link "Get Started" [ref=e10] [cursor=pointer]:
+        - /url: /dashboard
+        - button "Get Started" [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - img [ref=e18]
+          - text: AI course generator
+        - heading "Learn faster with courses built for your exact goal" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Turn any topic into a structured curriculum with chapters, practice prompts, videos, and a study path you can start immediately.
+        - generic [ref=e22]:
+          - link "Start Learning for Free" [ref=e23] [cursor=pointer]:
+            - /url: /dashboard
+            - button "Start Learning for Free" [ref=e24]
+          - link "Build a Course" [ref=e25] [cursor=pointer]:
+            - /url: /create-course
+            - button "Build a Course" [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: "4.8"
+          - generic [ref=e31]: from generated learner plans
+          - generic [ref=e32]: Beginner to advanced paths
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: Course preview
+            - heading "Build a dashboard with AI" [level=2] [ref=e37]
+            - paragraph [ref=e38]: A complete learning path generated from one topic brief.
+          - img [ref=e40]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - text: 4 hr
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - text: 12 videos
+          - generic [ref=e50]:
+            - img [ref=e51]
+            - text: 35 tasks
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: "1"
+            - generic [ref=e56]: Plan dashboard KPIs
+          - generic [ref=e57]:
+            - generic [ref=e58]: "2"
+            - generic [ref=e59]: Create responsive layouts
+          - generic [ref=e60]:
+            - generic [ref=e61]: "3"
+            - generic [ref=e62]: Add charts and filters
+        - generic [ref=e63]:
+          - generic [ref=e64]: AI
+          - generic [ref=e65]: Beginner
+          - generic [ref=e66]: 5 chapters
+          - generic [ref=e67]: Video lessons
+          - generic [ref=e68]: Course outline
+    - generic [ref=e70]:
+      - generic [ref=e71]: Python
+      - generic [ref=e73]: SQL
+      - generic [ref=e75]: ChatGPT
+      - generic [ref=e77]: Power BI
+      - generic [ref=e79]: Excel
+      - generic [ref=e81]: React
+      - generic [ref=e83]: R
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: What you get
+          - heading "A course page, not just a prompt result" [level=2] [ref=e90]
+        - paragraph [ref=e91]: "Each generated course includes the structure learners expect: overview, chapters, timing, levels, video support, and progress tracking."
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - img [ref=e94]
+          - heading "Structured syllabi" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Turn a rough topic into an ordered lesson plan with chapter goals and durations.
+        - generic [ref=e98]:
+          - img [ref=e99]
+          - heading "Rich learning assets" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Pair chapters with useful videos, exercises, and explanations for each learning stage.
+        - generic [ref=e103]:
+          - img [ref=e104]
+          - heading "Clear progress paths" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Use levels, chapter counts, and study time to make every course easier to scan.
